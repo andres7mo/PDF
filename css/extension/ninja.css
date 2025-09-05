@@ -1,0 +1,27 @@
+.ninja-form input[type="text"],
+.ninja-form textarea,
+.ninja-form select  {
+    width: 100%;
+}
+
+.ninja-form div {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.ninja-form div.ninja-checkbox, .ninja-form div.ninja-radio {
+    width: auto;
+    float: left;
+    margin-right: 5px;
+}
+
+.ninja-form div.ninja-checkbox+div, .ninja-form div.ninja-radio+div  {
+    width: auto;
+    float:left;
+}
+
+.ninja-form .clearfix {
+    margin-top: 0;
+    clear: both;
+}
+

@@ -1,0 +1,37 @@
+.e2pdf-dialog .elementor-field-type-checkbox .elementor-field-subgroup .elementor-field-option input,
+.e2pdf-dialog .elementor-field-type-radio .elementor-field-subgroup .elementor-field-option input,
+.e2pdf-dialog .elementor-field-type-acceptance .elementor-field-subgroup .elementor-field-option input {
+    display: inline-block;
+}
+
+.e2pdf-dialog .dce-signature-wrapper input {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.e2pdf-dialog .dce-signature-wrapper {
+    margin: 10px 0px;
+}
+
+.e2pdf-dialog .dce-signature-wrapper {
+    margin: 10px 0px;
+}
+
+.e2pdf-dialog .elementor-field-type-signature > div {
+    position: relative;
+}
+
+.e2pdf-dialog .elementor-field-type-signature .elementor-upload-field-signature {
+    display: inline-block!important;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.e2pdf-dialog .elementor-field-repeater-end,
+.e2pdf-dialog .elementor-field-repeater-end input {
+    width: 100%;
+}
+

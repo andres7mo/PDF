@@ -1,0 +1,3183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: e2pdf\n"
+"POT-Creation-Date: 2025-04-22 17:10+0200\n"
+"PO-Revision-Date: 2025-04-22 17:10+0200\n"
+"Last-Translator: Weblate Admin <admin@example.com>\n"
+"Language-Team: Ukrainian <https://localhost/projects/e2pdf/e2pdf/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: classes/controller/e2pdf-debug.php:25 classes/controller/e2pdf-debug.php:51
+#: classes/controller/e2pdf-debug.php:63
+#: classes/controller/e2pdf-integrations.php:23
+#: classes/controller/e2pdf-license.php:63
+#: classes/controller/e2pdf-license.php:112
+#: classes/controller/e2pdf-license.php:146
+#: classes/controller/e2pdf-settings.php:63
+#: classes/controller/e2pdf-settings.php:98
+#: classes/controller/e2pdf-settings.php:109
+#: classes/controller/e2pdf-settings.php:120
+#: classes/controller/e2pdf-settings.php:131
+#: classes/controller/e2pdf-settings.php:143
+#: classes/controller/e2pdf-settings.php:154
+#: classes/controller/e2pdf-settings.php:253
+#: classes/controller/e2pdf-settings.php:275
+#: classes/controller/e2pdf-settings.php:315
+#: classes/controller/e2pdf-settings.php:341
+#, php-format
+msgid "Success: %s"
+msgstr "Успіх: %s"
+
+#: classes/controller/e2pdf-debug.php:25 classes/view/page-e2pdf-debug.php:23
+msgid "Reinitialize Activation Hooks"
+msgstr "Повторна ініціалізація хуків активації"
+
+#: classes/controller/e2pdf-debug.php:51 classes/view/page-e2pdf-debug.php:193
+msgid "Repair DB"
+msgstr "Відновлення БД"
+
+#: classes/controller/e2pdf-debug.php:63 classes/view/page-e2pdf-debug.php:204
+msgid "Reinitialize DB Hooks"
+msgstr "Повторна ініціалізація хуків БД"
+
+#: classes/controller/e2pdf-integrations.php:23
+#: classes/controller/e2pdf-settings.php:63
+#: classes/controller/e2pdf-settings.php:253
+#: classes/controller/e2pdf-settings.php:275
+#: classes/controller/e2pdf-settings.php:315
+#: classes/controller/e2pdf-settings.php:341
+msgid "Settings Saved"
+msgstr "Налаштування збережено"
+
+#: classes/controller/e2pdf-integrations.php:45
+#: classes/model/e2pdf-options.php:460
+msgid "Not Authorized"
+msgstr "Не авторизовано"
+
+#: classes/controller/e2pdf-integrations.php:72
+msgid "App Authorized"
+msgstr "Додаток авторизовано"
+
+#: classes/controller/e2pdf-license.php:63
+msgid "License Key Updated"
+msgstr "Ліцензійний ключ оновлено"
+
+#: classes/controller/e2pdf-license.php:112
+msgid "License Key Restored"
+msgstr "Ліцензійний ключ відновлено"
+
+#: classes/controller/e2pdf-license.php:114
+#, php-format
+msgid ""
+"Failed to Restore License Key. Contact Support at <a target=\"_blank\" "
+"href=\"%s\">%s</a>"
+msgstr ""
+"Не вдалося відновити ліцензійний ключ. Зверніться до служби підтримки за "
+"посиланням <a target='_blank' href='%s'>%s</a>"
+
+#: classes/controller/e2pdf-license.php:146
+msgid "Deactivated"
+msgstr "Деактивовано"
+
+#: classes/controller/e2pdf-settings.php:55
+#, php-format
+msgid ""
+"An account with that E-mail address was not found at E2Pdf.com. You can "
+"register at %s"
+msgstr ""
+"Обліковий запис з цією електронною адресою не знайдений на E2Pdf.com. Ви "
+"можете зареєструватися за адресою %s"
+
+#: classes/controller/e2pdf-settings.php:98
+#: classes/view/page-e2pdf-settings.php:126
+msgid "Purge Objects Cache"
+msgstr "Очистити кеш об'єктів"
+
+#: classes/controller/e2pdf-settings.php:109
+#: classes/view/page-e2pdf-settings.php:137
+msgid "Purge Fonts Cache"
+msgstr "Очистити кеш шрифтів"
+
+#: classes/controller/e2pdf-settings.php:120
+#: classes/view/page-e2pdf-settings.php:148
+msgid "Purge PDFs Cache"
+msgstr "Очистити кеш PDF"
+
+#: classes/controller/e2pdf-settings.php:131
+#: classes/view/page-e2pdf-settings.php:160
+msgid "Purge Full Cache"
+msgstr "Очистити весь кеш"
+
+#: classes/controller/e2pdf-settings.php:143
+#: classes/view/page-e2pdf-settings.php:103
+msgid "Optimize DB"
+msgstr "Оптимізувати БД"
+
+#: classes/controller/e2pdf-settings.php:154
+#: classes/view/page-e2pdf-settings.php:114
+msgid "Clear Recovery Mode Limit"
+msgstr "Очистити обмеження режиму відновлення"
+
+#: classes/controller/e2pdf-settings.php:195
+msgid "Choose Font file to upload"
+msgstr "Виберіть файл шрифту для завантаження"
+
+#: classes/controller/e2pdf-settings.php:199
+#: classes/controller/e2pdf-templates.php:522
+#: classes/controller/e2pdf-templates.php:1366
+#: classes/controller/e2pdf-templates.php:1611
+#, php-format
+msgid "Only %s files allowed"
+msgstr "Дозволено лише файли %s"
+
+#: classes/controller/e2pdf-settings.php:201
+#: classes/controller/e2pdf-templates.php:524
+#: classes/controller/e2pdf-templates.php:1368
+#: classes/controller/e2pdf-templates.php:1613
+msgid "Invalid Type"
+msgstr "Неправильний тип"
+
+#: classes/controller/e2pdf-settings.php:203
+msgid "A Font with this name already exists"
+msgstr "Шрифт з таким ім'ям вже існує"
+
+#: classes/controller/e2pdf-settings.php:206
+#, php-format
+msgid "Uploaded: %d"
+msgstr "Завантажено: %d"
+
+#: classes/controller/e2pdf-settings.php:208
+#: classes/controller/e2pdf-templates.php:192
+#: classes/controller/e2pdf-templates.php:397
+#: classes/controller/e2pdf-templates.php:832
+#: classes/controller/e2pdf-templates.php:1096
+#: classes/controller/e2pdf-templates.php:1153
+#: classes/controller/e2pdf-templates.php:1205
+#: classes/controller/e2pdf-templates.php:1571
+#: classes/controller/e2pdf-templates.php:1781
+#: classes/controller/e2pdf-templates.php:2039
+#: classes/controller/e2pdf-templates.php:2055 classes/controller/e2pdf.php:708
+#: classes/controller/frontend/e2pdf-download.php:304
+#: classes/extension/e2pdf-forminator.php:863
+#: classes/model/e2pdf-adobesign.php:127 classes/model/e2pdf-adobesign.php:208
+#: classes/model/e2pdf-api.php:111 classes/model/e2pdf-template.php:768
+#: classes/model/e2pdf-template.php:877 classes/model/e2pdf-template.php:911
+msgid "Something went wrong!"
+msgstr "Щось пішло не так!"
+
+#: classes/controller/e2pdf-settings.php:380
+#: classes/controller/e2pdf-templates.php:78
+#: classes/controller/e2pdf-templates.php:465
+#, php-format
+msgid "Deleted: %d"
+msgstr "Видалено: : %d"
+
+#: classes/controller/e2pdf-templates.php:58
+#: classes/controller/e2pdf-templates.php:417
+#, php-format
+msgid "Trashed: %d"
+msgstr "В кошику: %d"
+
+#: classes/controller/e2pdf-templates.php:63
+#, php-format
+msgid "Activated: %d"
+msgstr "Активовано: %d"
+
+#: classes/controller/e2pdf-templates.php:68
+#, php-format
+msgid "Deactivated: %d"
+msgstr "Деактивовано: %d"
+
+#: classes/controller/e2pdf-templates.php:73
+#: classes/controller/e2pdf-templates.php:441
+#, php-format
+msgid "Restored: %d"
+msgstr "Відновлено: %d"
+
+#: classes/controller/e2pdf-templates.php:489
+#, php-format
+msgid "Duplicated: %d"
+msgstr "Дубльовано: %d"
+
+#: classes/controller/e2pdf-templates.php:518
+msgid "Choose Template file to upload"
+msgstr "Виберіть файл шаблону для завантаження"
+
+#: classes/controller/e2pdf-templates.php:529
+msgid "The file is not a valid E2Pdf Template"
+msgstr "Файл не є дійсним шаблоном E2Pdf"
+
+#: classes/controller/e2pdf-templates.php:825
+#, php-format
+msgid ""
+"Imported: %1$d: <a target=\"_blank\" href=\"%2$s\">View</a> | <a "
+"target=\"_blank\" href=\"%3$s\">Edit</a>"
+msgstr ""
+"Імпортовано: %1$d: <a target=\"_blank\" href=\"%2$s\">Перегляд</a> | <a "
+"target=\"_blank\" href=\"%3$s\">Редагувати</a>"
+
+#: classes/controller/e2pdf-templates.php:849
+#: classes/controller/e2pdf-templates.php:1108 classes/controller/e2pdf.php:716
+#: classes/model/e2pdf-extension.php:250 classes/model/e2pdf-extension.php:254
+#: classes/model/e2pdf-loader.php:851
+#, php-format
+msgid "The PHP %s extension is required"
+msgstr "Необхідне розширення PHP %s"
+
+#: classes/controller/e2pdf-templates.php:855
+msgid "Template Options"
+msgstr "Опції шаблона"
+
+#: classes/controller/e2pdf-templates.php:858
+msgid "Overwrite Template by ID"
+msgstr "Перезаписати шаблон по ID"
+
+#: classes/controller/e2pdf-templates.php:866
+msgid "Import Images"
+msgstr "Імпортувати зображення"
+
+#: classes/controller/e2pdf-templates.php:874
+msgid "Import Fonts"
+msgstr "Імпортувати шрифти"
+
+#: classes/controller/e2pdf-templates.php:884
+msgid "Connection Options"
+msgstr "Опції з'єднання"
+
+#: classes/controller/e2pdf-templates.php:887
+msgid "Import Connection"
+msgstr "Імпортувати з'єднання"
+
+#: classes/controller/e2pdf-templates.php:1119
+#: classes/model/e2pdf-loader.php:549
+#: classes/view/metaboxes/e2pdf_templates_save.php:40
+msgid "Options"
+msgstr "Опції"
+
+#: classes/controller/e2pdf-templates.php:1122
+msgid "Include Connection"
+msgstr "Додати з'єднання"
+
+#: classes/controller/e2pdf-templates.php:1131
+msgid "Include Images"
+msgstr "Додати зображення"
+
+#: classes/controller/e2pdf-templates.php:1139
+msgid "Include Fonts"
+msgstr "Додати шрифти"
+
+#: classes/controller/e2pdf-templates.php:1230
+#, php-format
+msgid "Updated: %d"
+msgstr "Оновлено: %d"
+
+#: classes/controller/e2pdf-templates.php:1275
+msgid "Merged Connections"
+msgstr "Об'єднані з'єднання"
+
+#: classes/controller/e2pdf-templates.php:1282
+msgid "Auto Form from PDF"
+msgstr "Автоформа з PDF"
+
+#: classes/controller/e2pdf-templates.php:1289 classes/controller/e2pdf.php:45
+#: classes/controller/e2pdf.php:87 classes/controller/e2pdf.php:445
+#: classes/controller/e2pdf.php:468
+#: classes/extension/e2pdf-woocommerce.php:2442
+#: classes/extension/e2pdf-woocommerce.php:2452
+#: classes/model/e2pdf-loader.php:575 classes/view/page-e2pdf.php:53
+#: classes/view/page-e2pdf.php:76 classes/view/page-e2pdf.php:85
+#: classes/view/page-e2pdf.php:111 classes/view/page-e2pdf.php:118
+#: classes/view/page-e2pdf.php:286 classes/view/page-e2pdf.php:322
+msgid "--- Select ---"
+msgstr "--- Вибрати ---"
+
+#: classes/controller/e2pdf-templates.php:1326
+msgid "You must set the Connection to use the Visual Mapper"
+msgstr "Ви повинні налаштувати З'єднання для використання Visual Mapper"
+
+#: classes/controller/e2pdf-templates.php:1330
+msgid "Sorry, this Extension doesn't support the Visual Mapper"
+msgstr "Вибачте, це розширення не підтримує Visual Mapper"
+
+#: classes/controller/e2pdf-templates.php:1356
+#: classes/extension/e2pdf-formidable.php:254
+#: classes/model/e2pdf-revision.php:205 classes/model/e2pdf-template.php:185
+#: classes/model/e2pdf-template.php:825
+msgid "(no title)"
+msgstr "(без назви)"
+
+#: classes/controller/e2pdf-templates.php:1664
+#, php-format
+msgid "Invalid position of %s page"
+msgstr "Невірне розташування сторінки %s"
+
+#: classes/controller/e2pdf-templates.php:1666
+#, php-format
+msgid ""
+"The width of PDF page %1$s can't be less than the width of Template page %2$s"
+msgstr ""
+"Ширина сторінки PDF %1$s не може бути меншою за ширину сторінки шаблону %2$s"
+
+#: classes/controller/e2pdf-templates.php:1668
+#, php-format
+msgid ""
+"The height of PDF page %1$s can't be less than the height of Template page "
+"%2$s"
+msgstr ""
+"Висота сторінки PDF %1$s не може бути меншою за висоту сторінки шаблону %2$s"
+
+#: classes/controller/e2pdf-templates.php:1919
+msgid "Invalid E-mail address format"
+msgstr "Невірний формат адреси електронної пошти"
+
+#: classes/controller/e2pdf-templates.php:1923
+msgid "Invalid Confirmation Code"
+msgstr "Невірний код підтвердження"
+
+#: classes/controller/e2pdf-templates.php:2000
+msgid "(Copy)"
+msgstr "(Копія)"
+
+#: classes/controller/e2pdf-templates.php:2556
+msgid "Preset"
+msgstr "Пресет"
+
+#: classes/controller/e2pdf-templates.php:2559
+msgid "PDF Builder"
+msgstr "Конструктор PDF"
+
+#: classes/controller/e2pdf-templates.php:2562
+#: classes/helper/e2pdf-helper.php:292 classes/model/e2pdf-loader.php:439
+#: classes/view/page-e2pdf-debug.php:44 classes/view/page-e2pdf-settings.php:7
+msgid "Settings"
+msgstr "Налаштування"
+
+#: classes/controller/e2pdf.php:70
+msgid ""
+"WP Cron is disabled. You must stay on this page to complete the Bulk PDFs "
+"creation"
+msgstr ""
+"WP Cron вимкнено. Не покидайте сторінку до завершення масової генерації PDF"
+
+#: classes/controller/e2pdf.php:75
+#, php-format
+msgid ""
+"The Bulk PDFs creation is not available with Free License Type. Check <a "
+"target='_blank' href='%s'>%s</a> for upgrade options"
+msgstr ""
+"Масова генерація PDF недоступна для типу ліцензії \"Безкоштовна\". Перевірте "
+"<a target=\"_blank\" href=\"%s\">%s</a> для варіантів оновлення"
+
+#: classes/controller/e2pdf.php:337
+msgid "Incorrect Dataset"
+msgstr "Неправильний набір даних"
+
+#: classes/controller/e2pdf.php:341
+msgid "Template can't be loaded"
+msgstr "Шаблон не може бути завантажений"
+
+#: classes/controller/e2pdf.php:521
+msgid "Delete All Datasets"
+msgstr "Видалити всі набори даних"
+
+#: classes/controller/e2pdf.php:531
+msgid "Edit Template"
+msgstr "Редагувати шаблон"
+
+#: classes/controller/e2pdf.php:613
+msgid "View Dataset"
+msgstr "Переглянути набір даних"
+
+#: classes/controller/e2pdf.php:616
+msgid "Delete Dataset"
+msgstr "Видалити набір даних"
+
+#: classes/controller/e2pdf.php:662
+msgid "Dataset can't be removed!"
+msgstr "Не вдалося видалити набір даних!"
+
+#: classes/controller/e2pdf.php:694
+msgid "Datasets can't be removed!"
+msgstr "Не вдалося видалити набори даних!"
+
+#: classes/controller/e2pdf.php:712
+#, php-format
+msgid ""
+"The Bulk PDFs generation is not available with Free License Type. Check <a "
+"target='_blank' href='%s'>%s</a> for upgrade options"
+msgstr ""
+"Масова генерація PDF недоступна для типу ліцензії \"Безкоштовна\". Перевірте "
+"<a target='_blank' href='%s'>%s</a> для варіантів оновлення"
+
+#: classes/controller/frontend/e2pdf-download.php:141
+msgid "Access Denied!"
+msgstr "Доступ заборонено!"
+
+#: classes/extension/e2pdf-caldera.php:376
+#: classes/extension/e2pdf-formidable.php:3347
+#: classes/extension/e2pdf-forminator.php:822
+#, php-format
+msgid "Success. [e2pdf-download id=\"%s\"]"
+msgstr "Успішно. [e2pdf-download id=\"%s\"]"
+
+#: classes/extension/e2pdf-caldera.php:611 classes/extension/e2pdf-divi.php:935
+#: classes/extension/e2pdf-elementor.php:505
+#: classes/extension/e2pdf-everest.php:268
+#: classes/extension/e2pdf-fluent.php:1404
+#: classes/extension/e2pdf-formidable.php:3525
+#: classes/extension/e2pdf-forminator.php:894
+#: classes/extension/e2pdf-gravity.php:1840
+#: classes/extension/e2pdf-jetformbuilder.php:604
+#: classes/extension/e2pdf-wpcf7.php:653
+#: classes/extension/e2pdf-wpforms.php:1167
+msgid "The form source is empty or doesn't exist"
+msgstr "Джерело форми відсутнє або порожнє"
+
+#: classes/extension/e2pdf-caldera.php:613 classes/extension/e2pdf-divi.php:937
+#: classes/extension/e2pdf-elementor.php:507
+#: classes/extension/e2pdf-everest.php:270
+#: classes/extension/e2pdf-fluent.php:1406
+#: classes/extension/e2pdf-formidable.php:3527
+#: classes/extension/e2pdf-forminator.php:896
+#: classes/extension/e2pdf-gravity.php:1842
+#: classes/extension/e2pdf-jetformbuilder.php:606
+#: classes/extension/e2pdf-wpcf7.php:655
+#: classes/extension/e2pdf-wpforms.php:1169
+msgid "The form could not be parsed due the incorrect HTML"
+msgstr "Форму не вдалося розібрати через некоректний HTML"
+
+#: classes/extension/e2pdf-formidable.php:254
+msgid " (child)"
+msgstr " (Дочірна)"
+
+#: classes/extension/e2pdf-formidable.php:1107
+msgid "Auto PDF and Visual Mapper"
+msgstr "Авто PDF та Візуальний маппер"
+
+#: classes/extension/e2pdf-formidable.php:1113
+msgid "Use Field Keys instead Field IDs"
+msgstr "Ключі полів замість ID полів"
+
+#: classes/extension/e2pdf-formidable.php:1116
+msgid "Filter"
+msgstr "Фільтр"
+
+#: classes/extension/e2pdf-formidable.php:1122
+msgid "Disable Filter"
+msgstr "Вимкнути фільтр"
+
+#: classes/extension/e2pdf-formidable.php:1158
+msgid "Force shortcodes to use"
+msgstr "Використовувати шорткоди"
+
+#: classes/extension/e2pdf-formidable.php:1164
+#: classes/extension/e2pdf-metform.php:1159 classes/model/e2pdf-loader.php:613
+#: classes/view/metaboxes/e2pdf_templates_save.php:122
+msgid "None"
+msgstr "Жоден"
+
+#: classes/extension/e2pdf-formidable.php:1165
+msgid "Fields IDs"
+msgstr "ID полів"
+
+#: classes/extension/e2pdf-formidable.php:1166
+msgid "Field Keys"
+msgstr "Ключі полів"
+
+#: classes/extension/e2pdf-formidable.php:3491
+msgid "Child form doesn't support Visual Mapper"
+msgstr "Дочірня форма не підтримує візуальний маппер"
+
+#: classes/extension/e2pdf-formidable.php:3653
+msgid "File Upload"
+msgstr "Завантаження файлу"
+
+#: classes/extension/e2pdf-formidable.php:4124
+#: classes/extension/e2pdf-formidable.php:4156
+#: classes/extension/e2pdf-gravity.php:2659
+#: classes/extension/e2pdf-jetformbuilder.php:1255
+#: classes/extension/e2pdf-metform.php:1124
+#: classes/extension/e2pdf-metform.php:1167
+#: classes/extension/e2pdf-woocommerce.php:3588
+#: classes/extension/e2pdf-woocommerce.php:3652
+#: classes/extension/e2pdf-wordpress.php:1331
+#: classes/extension/e2pdf-wpforms.php:1312
+#: classes/extension/e2pdf-wpforms.php:1348
+msgid "E2Pdf Actions"
+msgstr "E2Pdf Дії"
+
+#: classes/extension/e2pdf-forminator.php:824
+msgid "Send Message"
+msgstr "Відправити повідомлення"
+
+#: classes/extension/e2pdf-forminator.php:826
+msgid "Error: Your form is not valid, please fix the errors!"
+msgstr "Помилка: Ваша форма недійсна, будь ласка, виправте помилки!"
+
+#: classes/extension/e2pdf-forminator.php:855
+msgid "Form could not be found"
+msgstr "Форму не знайдено"
+
+#: classes/extension/e2pdf-forminator.php:1926
+msgid "Custom Fields"
+msgstr "Користувацькі поля"
+
+#: classes/extension/e2pdf-gravity.php:1145 classes/model/e2pdf-loader.php:618
+#: classes/view/metaboxes/e2pdf_templates_settings.php:492
+#: classes/view/metaboxes/e2pdf_templates_settings.php:500
+#: classes/view/page-e2pdf-templates.php:79
+#: classes/view/page-e2pdf-templates.php:207
+msgid "Title"
+msgstr "Назва"
+
+#: classes/extension/e2pdf-gravity.php:1189
+msgid "Caption"
+msgstr "Заголовок"
+
+#: classes/extension/e2pdf-gravity.php:1233
+msgid "Description"
+msgstr "Опис"
+
+#: classes/extension/e2pdf-gravity.php:1631
+msgid "Default Confirmation"
+msgstr "Підтвердження за замовчуванням"
+
+#: classes/extension/e2pdf-gravity.php:1635
+#, php-format
+msgid ""
+"Thanks for contacting us! We will get in touch with you shortly. [e2pdf-"
+"download id=\"%d\"]"
+msgstr ""
+"Дякуємо за звернення! Ми зв'яжемося з вами найближчим часом. [e2pdf-download "
+"id=\"%d\"]"
+
+#: classes/extension/e2pdf-woocommerce.php:184
+msgid "Cart / Checkout"
+msgstr "Кошик / Оформлення замовлення"
+
+#: classes/extension/e2pdf-woocommerce.php:2468
+msgid "User Order List"
+msgstr "Список замовлень користувача"
+
+#: classes/extension/e2pdf-woocommerce.php:2469
+#: classes/extension/e2pdf-woocommerce.php:2493
+#: classes/extension/e2pdf-woocommerce.php:2531
+#: classes/extension/e2pdf-woocommerce.php:2549
+#: classes/extension/e2pdf-woocommerce.php:2583
+#: classes/extension/e2pdf-woocommerce.php:2620
+#: classes/view/metaboxes/e2pdf_templates_settings.php:11
+#: classes/view/page-e2pdf-templates.php:386
+#: classes/view/page-e2pdf-templates.php:477 classes/view/page-e2pdf.php:37
+#: classes/view/page-e2pdf.php:270 classes/view/page-e2pdf.php:477
+msgid "Template"
+msgstr "Шаблон"
+
+#: classes/extension/e2pdf-woocommerce.php:2477
+#: classes/extension/e2pdf-woocommerce.php:2501
+#: classes/extension/e2pdf-woocommerce.php:2602
+#: classes/extension/e2pdf-woocommerce.php:2628
+msgid "Order Status"
+msgstr "Статус замовлення"
+
+#: classes/extension/e2pdf-woocommerce.php:2483
+#: classes/extension/e2pdf-woocommerce.php:2521
+#: classes/extension/e2pdf-woocommerce.php:2539
+#: classes/extension/e2pdf-woocommerce.php:2568
+#: classes/extension/e2pdf-woocommerce.php:2608
+msgid "Priority"
+msgstr "Пріорітет"
+
+#: classes/extension/e2pdf-woocommerce.php:2492
+msgid "User Order Details"
+msgstr "Деталі замовлення користувача"
+
+#: classes/extension/e2pdf-woocommerce.php:2507
+#: classes/extension/e2pdf-woocommerce.php:2557
+#: classes/extension/e2pdf-woocommerce.php:2591
+msgid "Hook"
+msgstr "Хук"
+
+#: classes/extension/e2pdf-woocommerce.php:2530
+msgid "User Cart"
+msgstr "Кошик користувача"
+
+#: classes/extension/e2pdf-woocommerce.php:2548
+msgid "User Checkout"
+msgstr "Оформлення замовлення користувача"
+
+#: classes/extension/e2pdf-woocommerce.php:2582
+msgid "Admin Order List"
+msgstr "Список замовлень адміністратора"
+
+#: classes/extension/e2pdf-woocommerce.php:2619
+msgid "Admin Order Details"
+msgstr "Деталі замовлення для адміністратора"
+
+#: classes/extension/e2pdf-woocommerce.php:2662
+#: classes/model/e2pdf-loader.php:603
+msgid "Any"
+msgstr "Будь-який"
+
+#: classes/extension/e2pdf-wordpress.php:228
+msgid "Users"
+msgstr "Користувачі"
+
+#: classes/extension/e2pdf-wpcf7.php:679
+#: classes/view/metaboxes/e2pdf_templates_builder.php:26
+msgid "Signature"
+msgstr "Підпис"
+
+#: classes/extension/e2pdf-wpcf7.php:1447
+msgid "Storing Engine"
+msgstr "Сховище даних"
+
+#: classes/helper/e2pdf-db.php:660 classes/helper/e2pdf-db.php:718
+#: classes/helper/e2pdf-db.php:739 classes/helper/e2pdf-db.php:751
+#: classes/helper/e2pdf-db.php:771
+msgid "Undefined"
+msgstr "Не визначено"
+
+#: classes/helper/e2pdf-helper.php:284 classes/model/e2pdf-loader.php:436
+#: classes/model/e2pdf-loader.php:523
+#: classes/view/metaboxes/e2pdf_templates_save.php:67
+#: classes/view/page-e2pdf-templates.php:129 classes/view/page-e2pdf.php:7
+#: classes/view/page-e2pdf.php:11 classes/view/page-e2pdf.php:260
+msgid "Create PDF"
+msgstr "Створити PDF"
+
+#: classes/helper/e2pdf-helper.php:288 classes/model/e2pdf-loader.php:437
+#: classes/view/page-e2pdf-license.php:51
+#: classes/view/page-e2pdf-templates.php:14
+msgid "Templates"
+msgstr "Шаблони"
+
+#: classes/helper/e2pdf-helper.php:296 classes/model/e2pdf-loader.php:440
+#: classes/view/page-e2pdf-license.php:7 classes/view/page-e2pdf-license.php:11
+msgid "License"
+msgstr "Ліцензія"
+
+#: classes/helper/e2pdf-helper.php:300 classes/model/e2pdf-loader.php:442
+#: classes/view/page-e2pdf-debug.php:7 classes/view/page-e2pdf-debug.php:11
+msgid "Debug"
+msgstr "Налагодження"
+
+#: classes/helper/e2pdf-math.php:55 classes/helper/e2pdf-math.php:109
+msgid "Mismatched Parenthesis in Math operation"
+msgstr "Невідповідна дужка в математичній операції"
+
+#: classes/helper/e2pdf-math.php:92
+msgid "Could not parse Math operation"
+msgstr "Не вдалося розібрати математичну операцію"
+
+#: classes/model/e2pdf-adobesign.php:151
+msgid "Access Token is not set or Incorrect"
+msgstr "Токен доступу не встановлений або неправильний"
+
+#: classes/model/e2pdf-loader.php:292
+msgid "E2Pdf Bulk Export Interval"
+msgstr "Інтервал масового експорту E2Pdf"
+
+#: classes/model/e2pdf-loader.php:438
+#: classes/view/page-e2pdf-integrations.php:7
+msgid "Integrations"
+msgstr "Інтеграції"
+
+#: classes/model/e2pdf-loader.php:496
+msgid "Page will be removed! Continue?"
+msgstr "Сторінка буде видалена! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:497
+msgid "Font will be removed! Continue?"
+msgstr "Шрифт буде видалено! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:498
+msgid "Changes will not be saved! Continue?"
+msgstr "Зміни не будуть збережені! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:499
+msgid "Saved Template will be overwritten! Continue?"
+msgstr "Збережений шаблон буде перезаписаний! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:500
+msgid "All pages will be removed! Continue?"
+msgstr "Усі сторінки будуть видалені! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:501
+msgid "Adding new pages not available in \"Uploaded PDF\""
+msgstr "Додавання нових сторінок недоступне в \"Завантаженому PDF\""
+
+#: classes/model/e2pdf-loader.php:502
+msgid "Dataset will be removed! Continue?"
+msgstr "Набір даних буде видалено! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:503
+msgid "All datasets will be removed! Continue?"
+msgstr "Усі набори даних будуть видалені! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:504
+msgid ""
+"WARNING: Template has changes after last save! Changes will be lost! "
+"Continue?"
+msgstr ""
+"УВАГА: Шаблон має зміни після останнього збереження! Зміни будуть втрачені! "
+"Продовжити?"
+
+#: classes/model/e2pdf-loader.php:505
+msgid "Element will be removed! Continue?"
+msgstr "Елемент буде видалено! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:506
+msgid "Elements will be removed! Continue?"
+msgstr "Елементи будуть видалені! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:507
+msgid "Action will be removed! Continue?"
+msgstr "Дію буде видалено! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:508
+msgid "Condition will be removed! Continue?"
+msgstr "Умова буде видалена! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:509
+msgid "All Field Values will be overwritten! Continue?"
+msgstr "Усі значення полів будуть перезаписані! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:510
+msgid "Website will be forced to use \"FREE\" License Key! Continue?"
+msgstr "Вебсайт використовуватиме ліцензійний ключ \"FREE\"! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:511
+msgid "Not Available in Revision Edit Mode"
+msgstr "Недоступно в режимі редагування версії"
+
+#: classes/model/e2pdf-loader.php:512
+msgid "The WYSIWYG editor is disabled for this HTML object"
+msgstr "Редактор WYSIWYG вимкнений для цього HTML-об'єкта"
+
+#: classes/model/e2pdf-loader.php:513
+msgid "WYSIWYG can only be applied within HTML elements"
+msgstr "WYSIWYG можна застосувати лише в елементах HTML"
+
+#: classes/model/e2pdf-loader.php:514
+msgid "Only single-page PDFs are allowed with the \"FREE\" license type"
+msgstr "З ліцензією \"FREE\" дозволено лише односторінкові PDF-файли"
+
+#: classes/model/e2pdf-loader.php:515
+msgid "Last condition can't be removed"
+msgstr "Останню умову неможливо видалити"
+
+#: classes/model/e2pdf-loader.php:516
+msgid "In Progress..."
+msgstr "В процесі..."
+
+#: classes/model/e2pdf-loader.php:517 classes/view/page-e2pdf-templates.php:36
+#: classes/view/page-e2pdf-templates.php:121
+msgid "Delete"
+msgstr "Видалити"
+
+#: classes/model/e2pdf-loader.php:518 classes/model/e2pdf-loader.php:526
+msgid "Properties"
+msgstr "Властивості"
+
+#: classes/model/e2pdf-loader.php:519 classes/view/page-e2pdf-license.php:30
+#: classes/view/page-e2pdf-license.php:38
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+#: classes/model/e2pdf-loader.php:520
+msgid "Empty PDF"
+msgstr "Порожній PDF"
+
+#: classes/model/e2pdf-loader.php:521
+#: classes/view/metaboxes/e2pdf_templates_save.php:62
+msgid "Upload PDF"
+msgstr "Завантажити PDF"
+
+#: classes/model/e2pdf-loader.php:522
+msgid "Auto PDF"
+msgstr "Авто PDF"
+
+#: classes/model/e2pdf-loader.php:524 classes/view/page-e2pdf-templates.php:470
+msgid "Extension"
+msgstr "Розширення"
+
+#: classes/model/e2pdf-loader.php:525
+msgid "Size"
+msgstr "Розмір"
+
+#: classes/model/e2pdf-loader.php:527
+msgid "Enter link here"
+msgstr "Введіть посилання тут"
+
+#: classes/model/e2pdf-loader.php:528
+msgid "Border"
+msgstr "Рамка"
+
+#: classes/model/e2pdf-loader.php:529
+msgid "Background"
+msgstr "Фон"
+
+#: classes/model/e2pdf-loader.php:530
+#: classes/view/metaboxes/e2pdf_templates_settings.php:110
+msgid "Left"
+msgstr "Ліво"
+
+#: classes/model/e2pdf-loader.php:531
+#: classes/view/metaboxes/e2pdf_templates_settings.php:112
+msgid "Right"
+msgstr "Право"
+
+#: classes/model/e2pdf-loader.php:532
+msgid "Top"
+msgstr "Верх"
+
+#: classes/model/e2pdf-loader.php:533
+#: classes/view/metaboxes/e2pdf_templates_settings.php:111
+msgid "Center"
+msgstr "Центр"
+
+#: classes/model/e2pdf-loader.php:534
+msgid "Bottom"
+msgstr "Низ"
+
+#: classes/model/e2pdf-loader.php:535
+msgid "Justify"
+msgstr "По краях"
+
+#: classes/model/e2pdf-loader.php:536 classes/model/e2pdf-loader.php:657
+msgid "Border Color"
+msgstr "Колір рамки"
+
+#: classes/model/e2pdf-loader.php:537
+msgid "Border Radius"
+msgstr "Радіус рамки"
+
+#: classes/model/e2pdf-loader.php:538 classes/view/blocks/wysiwyg.php:106
+#: classes/view/metaboxes/e2pdf_templates_settings.php:81
+msgid "Line Height"
+msgstr "Висота рядка"
+
+#: classes/model/e2pdf-loader.php:539
+msgid "Width"
+msgstr "Ширина"
+
+#: classes/model/e2pdf-loader.php:540
+msgid "Height"
+msgstr "Висота"
+
+#: classes/model/e2pdf-loader.php:541
+msgid "Value"
+msgstr "Значення"
+
+#: classes/model/e2pdf-loader.php:542 classes/view/blocks/wysiwyg.php:80
+#: classes/view/page-e2pdf-settings.php:29
+msgid "Font"
+msgstr "Шрифт"
+
+#: classes/model/e2pdf-loader.php:543
+msgid "Option"
+msgstr "Опція"
+
+#: classes/model/e2pdf-loader.php:544
+msgid "Group"
+msgstr "Група"
+
+#: classes/model/e2pdf-loader.php:545 classes/view/page-e2pdf-license.php:22
+msgid "Type"
+msgstr "Тип"
+
+#: classes/model/e2pdf-loader.php:546
+msgid "Scale"
+msgstr "Масштаб"
+
+#: classes/model/e2pdf-loader.php:547
+msgid "Width&Height"
+msgstr "Ширина та висота"
+
+#: classes/model/e2pdf-loader.php:548
+msgid "Choose Image"
+msgstr "Вибрати зображення"
+
+#: classes/model/e2pdf-loader.php:550
+msgid "PDF Upload"
+msgstr "Завантаження PDF"
+
+#: classes/model/e2pdf-loader.php:551
+#: classes/view/metaboxes/e2pdf_templates_save.php:104
+msgid "Global Actions"
+msgstr "Глобальні дії"
+
+#: classes/model/e2pdf-loader.php:552
+#: classes/view/metaboxes/e2pdf_templates_save.php:109
+msgid "Global Properties"
+msgstr "Глобальні властивості"
+
+#: classes/model/e2pdf-loader.php:553
+#: classes/view/metaboxes/e2pdf_templates_save.php:113
+#: classes/view/page-e2pdf-templates.php:83
+#: classes/view/page-e2pdf-templates.php:211
+#: classes/view/page-e2pdf-templates.php:482
+msgid "Connection"
+msgstr "З'єднання"
+
+#: classes/model/e2pdf-loader.php:554
+msgid "Map Field"
+msgstr "Розмітити поле"
+
+#: classes/model/e2pdf-loader.php:555
+msgid "Insert Mapped"
+msgstr "Вставити розмічене"
+
+#: classes/model/e2pdf-loader.php:556
+msgid "Resize"
+msgstr "Змінити розмір"
+
+#: classes/model/e2pdf-loader.php:557
+msgid "Copy"
+msgstr "Копіювати"
+
+#: classes/model/e2pdf-loader.php:558
+msgid "Cut"
+msgstr "Вирізати"
+
+#: classes/model/e2pdf-loader.php:559
+msgid "Paste"
+msgstr "Вставити"
+
+#: classes/model/e2pdf-loader.php:560
+msgid "Paste in Place"
+msgstr "Вставити на місце"
+
+#: classes/model/e2pdf-loader.php:561 classes/view/blocks/bulk-actions.php:14
+msgid "Apply"
+msgstr "Застосувати"
+
+#: classes/model/e2pdf-loader.php:562
+msgid "Dynamic Height"
+msgstr "Динамічна висота"
+
+#: classes/model/e2pdf-loader.php:563
+msgid "Multipage"
+msgstr "Багатосторінковий"
+
+#: classes/model/e2pdf-loader.php:564 classes/model/e2pdf-loader.php:667
+#: classes/view/metaboxes/e2pdf_templates_settings.php:98
+msgid "Text Align"
+msgstr "Вирівнювання"
+
+#: classes/model/e2pdf-loader.php:565
+msgid "Read-Only"
+msgstr "Лише читання"
+
+#: classes/model/e2pdf-loader.php:566
+msgid "Multiline"
+msgstr "Багаторядковий"
+
+#: classes/model/e2pdf-loader.php:567
+msgid "Required"
+msgstr "Обов'язковий"
+
+#: classes/model/e2pdf-loader.php:568
+msgid "Page Options"
+msgstr "Опції сторінки"
+
+#: classes/model/e2pdf-loader.php:569
+msgid "Direction"
+msgstr "Орієнтація"
+
+#: classes/model/e2pdf-loader.php:570
+msgid "Hide"
+msgstr "Проховати"
+
+#: classes/model/e2pdf-loader.php:571
+msgid "Unhide"
+msgstr "Відобразити"
+
+#: classes/model/e2pdf-loader.php:572 classes/view/page-e2pdf.php:170
+#: classes/view/page-e2pdf.php:376
+msgid "Password"
+msgstr "Пароль"
+
+#: classes/model/e2pdf-loader.php:573 classes/model/e2pdf-loader.php:591
+msgid "Visual Mapper"
+msgstr "Візуальний маппер"
+
+#: classes/model/e2pdf-loader.php:574
+msgid "Parent"
+msgstr "Батьківський"
+
+#: classes/model/e2pdf-loader.php:576
+#: classes/view/metaboxes/e2pdf_templates_save.php:131
+#: classes/view/page-e2pdf-templates.php:175
+msgid "Activated"
+msgstr "Активовано"
+
+#: classes/model/e2pdf-loader.php:577
+#: classes/view/metaboxes/e2pdf_templates_save.php:133
+#: classes/view/page-e2pdf-templates.php:177
+msgid "Not Activated"
+msgstr "Не активовано"
+
+#: classes/model/e2pdf-loader.php:578
+msgid "Page ID"
+msgstr "ID сторінки"
+
+#: classes/model/e2pdf-loader.php:579
+msgid "Page ID inside Upload PDF"
+msgstr "ID сторінки всередині завантаженого PDF"
+
+#: classes/model/e2pdf-loader.php:580
+msgid "Render Fields from Upload PDF"
+msgstr "Відобразити поля з завантаженого PDF"
+
+#: classes/model/e2pdf-loader.php:581
+msgid "Delete created E2Pdf Fields"
+msgstr "Видалити створені поля E2Pdf"
+
+#: classes/model/e2pdf-loader.php:582
+msgid "Keep Image Ratio"
+msgstr "Пропорція"
+
+#: classes/model/e2pdf-loader.php:583
+msgid "Keep Lower Size"
+msgstr "Менший розмір"
+
+#: classes/model/e2pdf-loader.php:584
+msgid "Lock Aspect Ratio"
+msgstr "Блок пропорції"
+
+#: classes/model/e2pdf-loader.php:585
+msgid "Fill Image"
+msgstr "Заповнити"
+
+#: classes/model/e2pdf-loader.php:586
+msgid "Page"
+msgstr "Сторінка"
+
+#: classes/model/e2pdf-loader.php:587
+msgid "Resolution"
+msgstr "Роздільна здатність"
+
+#: classes/model/e2pdf-loader.php:588
+msgid "Disable Text to Image"
+msgstr "Вимкнути перетворення тексту на зображення"
+
+#: classes/model/e2pdf-loader.php:589
+msgid "Confirmation Code"
+msgstr "Код підтвердження"
+
+#: classes/model/e2pdf-loader.php:590
+msgid "Code"
+msgstr "Код"
+
+#: classes/model/e2pdf-loader.php:592
+msgid "Auto"
+msgstr "Авто"
+
+#: classes/model/e2pdf-loader.php:593 classes/view/page-e2pdf.php:479
+msgid "Actions"
+msgstr "Дії"
+
+#: classes/model/e2pdf-loader.php:594
+#: classes/view/metaboxes/e2pdf_templates_save.php:166
+msgid "Save"
+msgstr "Зберегти"
+
+#: classes/model/e2pdf-loader.php:595
+msgid "Horizontal Align"
+msgstr "Горизонтально"
+
+#: classes/model/e2pdf-loader.php:596
+msgid "Vertical Align"
+msgstr "Вертикально"
+
+#: classes/model/e2pdf-loader.php:597
+msgid "Middle"
+msgstr "Середина"
+
+#: classes/model/e2pdf-loader.php:598
+msgid "Apply If"
+msgstr "Дійсна, якщо"
+
+#: classes/model/e2pdf-loader.php:599
+msgid "Action"
+msgstr "Дія"
+
+#: classes/model/e2pdf-loader.php:600
+msgid "Property"
+msgstr "Властивість"
+
+#: classes/model/e2pdf-loader.php:601
+msgid "If"
+msgstr "Якщо"
+
+#: classes/model/e2pdf-loader.php:602
+msgid "Condition"
+msgstr "Умова"
+
+#: classes/model/e2pdf-loader.php:604 classes/view/blocks/sub-filters.php:9
+msgid "All"
+msgstr "Всі"
+
+#: classes/model/e2pdf-loader.php:605 classes/model/e2pdf-loader.php:753
+msgid "Sort"
+msgstr "Сорт"
+
+#: classes/model/e2pdf-loader.php:606
+msgid "E-Signature"
+msgstr "Електронний підпис"
+
+#: classes/model/e2pdf-loader.php:607
+msgid "Contact"
+msgstr "Контакт"
+
+#: classes/model/e2pdf-loader.php:608
+msgid "Location"
+msgstr "Розташування"
+
+#: classes/model/e2pdf-loader.php:609
+msgid "Reason"
+msgstr "Причина"
+
+#: classes/model/e2pdf-loader.php:610
+msgid "Placeholder"
+msgstr "Плейсхолдер"
+
+#: classes/model/e2pdf-loader.php:611
+msgid "Length"
+msgstr "Довжина"
+
+#: classes/model/e2pdf-loader.php:612
+msgid "Comb"
+msgstr "Комбінований"
+
+#: classes/model/e2pdf-loader.php:614
+msgid "Highlight"
+msgstr "Виділення"
+
+#: classes/model/e2pdf-loader.php:615
+msgid "Invert"
+msgstr "Інверсія"
+
+#: classes/model/e2pdf-loader.php:616
+msgid "Outline"
+msgstr "Окреслення"
+
+#: classes/model/e2pdf-loader.php:617
+msgid "Push"
+msgstr "Натискання"
+
+#: classes/model/e2pdf-loader.php:619
+msgid "Status"
+msgstr "Статус"
+
+#: classes/model/e2pdf-loader.php:620
+msgid "Add Action"
+msgstr "Додати дію"
+
+#: classes/model/e2pdf-loader.php:621
+#: classes/view/metaboxes/e2pdf_templates_save.php:11
+#: classes/view/page-e2pdf-templates.php:148 classes/view/page-e2pdf.php:135
+msgid "Shortcodes"
+msgstr "Шорткоди"
+
+#: classes/model/e2pdf-loader.php:622
+msgid "Labels"
+msgstr "Мітки"
+
+#: classes/model/e2pdf-loader.php:623
+msgid "Field Values"
+msgstr "Значення полів"
+
+#: classes/model/e2pdf-loader.php:624
+msgid "Field Names"
+msgstr "Назви полів"
+
+#: classes/model/e2pdf-loader.php:625
+msgid "Field Name"
+msgstr "Назва поля"
+
+#: classes/model/e2pdf-loader.php:626
+msgid "As Field Name"
+msgstr "Як назва поля"
+
+#: classes/model/e2pdf-loader.php:627
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#: classes/model/e2pdf-loader.php:628
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: classes/model/e2pdf-loader.php:629
+msgid "Hide (If Empty)"
+msgstr "Сховати (якщо пусте)"
+
+#: classes/model/e2pdf-loader.php:630
+msgid "Hide Page (If Empty)"
+msgstr "Сховати сторінку (якщо пусте)"
+
+#: classes/model/e2pdf-loader.php:631
+msgid "Replace Value"
+msgstr "Замінити значення"
+
+#: classes/model/e2pdf-loader.php:632
+msgid "Auto-Close"
+msgstr "Автозакриття"
+
+#: classes/model/e2pdf-loader.php:633
+msgid "New Lines to BR"
+msgstr "Нові рядки в BR"
+
+#: classes/model/e2pdf-loader.php:634
+msgid "Disable WYSIWYG Editor"
+msgstr "Вимкнути WYSIWYG редактор"
+
+#: classes/model/e2pdf-loader.php:635
+msgid "CSS Priority"
+msgstr "Пріоритет CSS"
+
+#: classes/model/e2pdf-loader.php:636
+msgid "CSS Style"
+msgstr "CSS стиль"
+
+#: classes/model/e2pdf-loader.php:637
+msgid "Enabling WYSIWYG can affect \"HTML\" Source"
+msgstr "Увімкнення WYSIWYG може вплинути на \"HTML\" джерело"
+
+#: classes/model/e2pdf-loader.php:638
+msgid "Hidden Fields"
+msgstr "Приховані поля"
+
+#: classes/model/e2pdf-loader.php:639
+msgid "Enable PDF Access By URL"
+msgstr "Увімкнути доступ до PDF за URL-адресою"
+
+#: classes/model/e2pdf-loader.php:640
+msgid "Disable PDF Access By URL"
+msgstr "Вимкнути доступ до PDF за URL-адресою"
+
+#: classes/model/e2pdf-loader.php:641
+msgid "Enable Shortcodes"
+msgstr "Увімкнути шорткоди"
+
+#: classes/model/e2pdf-loader.php:642
+msgid "Disable Shortcodes"
+msgstr "Вимкнути шорткоди"
+
+#: classes/model/e2pdf-loader.php:643
+msgid "Error Message"
+msgstr "Повідомлення про помилку"
+
+#: classes/model/e2pdf-loader.php:644
+msgid "Redirect URL"
+msgstr "Перенаправлення URL-адреси"
+
+#: classes/model/e2pdf-loader.php:645
+msgid "Element"
+msgstr "Елемент"
+
+#: classes/model/e2pdf-loader.php:646
+msgid "Elements"
+msgstr "Елементи"
+
+#: classes/model/e2pdf-loader.php:647
+msgid "Position Top"
+msgstr "Позиція вгорі"
+
+#: classes/model/e2pdf-loader.php:648
+msgid "Position Left"
+msgstr "Позиція зліва"
+
+#: classes/model/e2pdf-loader.php:649
+msgid "Padding Top"
+msgstr "Відступ внутрішній верх"
+
+#: classes/model/e2pdf-loader.php:650
+msgid "Padding Bottom"
+msgstr "Відступ внутрішній низ"
+
+#: classes/model/e2pdf-loader.php:651
+msgid "Padding Left"
+msgstr "Відступ внутрішній ліво"
+
+#: classes/model/e2pdf-loader.php:652
+msgid "Padding Right"
+msgstr "Відступ внутрішній право"
+
+#: classes/model/e2pdf-loader.php:653
+msgid "Margin Top"
+msgstr "Відступ зовнішній верх"
+
+#: classes/model/e2pdf-loader.php:654
+msgid "Margin Bottom"
+msgstr "Відступ зовнішній низ"
+
+#: classes/model/e2pdf-loader.php:655
+msgid "Margin Left"
+msgstr "Відступ зовнішній ліво"
+
+#: classes/model/e2pdf-loader.php:656
+msgid "Margin Right"
+msgstr "Відступ зовнішній право"
+
+#: classes/model/e2pdf-loader.php:658
+msgid "Border Top"
+msgstr "Рамка зверху"
+
+#: classes/model/e2pdf-loader.php:659
+msgid "Border Bottom"
+msgstr "Рамка знизу"
+
+#: classes/model/e2pdf-loader.php:660
+msgid "Border Left"
+msgstr "Рамка зліва"
+
+#: classes/model/e2pdf-loader.php:661
+msgid "Border Right"
+msgstr "Рамка справа"
+
+#: classes/model/e2pdf-loader.php:662
+msgid "Field"
+msgstr "Поле"
+
+#: classes/model/e2pdf-loader.php:663
+#: classes/view/metaboxes/e2pdf_templates_settings.php:9
+msgid "Style"
+msgstr "Стиль"
+
+#: classes/model/e2pdf-loader.php:664
+msgid "Lock / Hide"
+msgstr "Блокування / Видимість"
+
+#: classes/model/e2pdf-loader.php:665
+#: classes/view/metaboxes/e2pdf_templates_settings.php:139
+msgid "Font Color"
+msgstr "Колір шрифту"
+
+#: classes/model/e2pdf-loader.php:666 classes/view/blocks/wysiwyg.php:93
+msgid "Font Size"
+msgstr "Розмір шрифту"
+
+#: classes/model/e2pdf-loader.php:668
+msgid "Rotation"
+msgstr "Обертання"
+
+#: classes/model/e2pdf-loader.php:669
+msgid "Preg Replace Pattern"
+msgstr "Preg Replace Шаблон"
+
+#: classes/model/e2pdf-loader.php:670
+msgid "Preg Replace Replacement"
+msgstr "Preg Replace Заміна"
+
+#: classes/model/e2pdf-loader.php:671
+msgid "Preg Match All Pattern"
+msgstr "Preg Match All Шаблон"
+
+#: classes/model/e2pdf-loader.php:672
+msgid "Preg Match All Output"
+msgstr "Preg Match All Вивід"
+
+#: classes/model/e2pdf-loader.php:673
+msgid "Preg Filters"
+msgstr "Preg Фільтри"
+
+#: classes/model/e2pdf-loader.php:674
+msgid "Char Spacing"
+msgstr "Міжсимвольний інтервал"
+
+#: classes/model/e2pdf-loader.php:675 classes/view/blocks/wysiwyg.php:34
+msgid "Color"
+msgstr "Колір"
+
+#: classes/model/e2pdf-loader.php:676
+#: classes/view/metaboxes/e2pdf_templates_builder.php:43
+msgid "QR Code"
+msgstr "QR код"
+
+#: classes/model/e2pdf-loader.php:677
+#: classes/view/metaboxes/e2pdf_templates_builder.php:45
+msgid "Barcode"
+msgstr "Штрихкод"
+
+#: classes/model/e2pdf-loader.php:678 classes/model/e2pdf-loader.php:704
+#: classes/view/metaboxes/e2pdf_templates_settings.php:238
+#: classes/view/page-e2pdf.php:216 classes/view/page-e2pdf.php:423
+msgid "Format"
+msgstr "Формат"
+
+#: classes/model/e2pdf-loader.php:679
+msgid "Precision"
+msgstr "Точність"
+
+#: classes/model/e2pdf-loader.php:680
+msgid "L - Smallest"
+msgstr "L - Найменша"
+
+#: classes/model/e2pdf-loader.php:681
+msgid "M - Medium"
+msgstr "M - Середня"
+
+#: classes/model/e2pdf-loader.php:682
+msgid "Q - High"
+msgstr "Q - Висока"
+
+#: classes/model/e2pdf-loader.php:683
+msgid "H - Best"
+msgstr "H - Найкраща"
+
+#: classes/model/e2pdf-loader.php:684
+msgid "All Templates for this Website will be deactivated! Continue?"
+msgstr "Усі шаблони для цього вебсайту будуть деактивовані! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:685
+msgid "Pre-uploaded PDF will be removed from E2Pdf Template! Continue?"
+msgstr "Попередньо завантажений PDF буде видалено з шаблону E2Pdf! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:686
+msgid "Quiet Zone Size"
+msgstr "Розмір Quite Zone"
+
+#: classes/model/e2pdf-loader.php:687
+msgid "Hide Label"
+msgstr "Сховати мітку"
+
+#: classes/model/e2pdf-loader.php:688
+msgid "Lock"
+msgstr "Заблокувати"
+
+#: classes/model/e2pdf-loader.php:689
+#: classes/view/metaboxes/e2pdf_templates_settings.php:41
+msgid "Unlock"
+msgstr "Розблокувати"
+
+#: classes/model/e2pdf-loader.php:690
+msgid "Opacity"
+msgstr "Непрозорість"
+
+#: classes/model/e2pdf-loader.php:691
+msgid "Auto Font Size"
+msgstr "Автопідбір розміру шрифту"
+
+#: classes/model/e2pdf-loader.php:692 classes/view/page-e2pdf-settings.php:33
+#: classes/view/page-e2pdf-templates.php:389
+msgid "Max Upload File Size"
+msgstr "Макс. розмір файлу"
+
+#: classes/model/e2pdf-loader.php:693
+msgid "The bulk export task will be removed! Continue?"
+msgstr "Завдання масового експорту буде видалено! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:694
+msgid "The bulk export task will be stopped! Continue?"
+msgstr "Завдання масового експорту буде зупинено! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:695
+msgid "The bulk export task will be started! Continue?"
+msgstr "Завдання масового експорту буде розпочато! Продовжити?"
+
+#: classes/model/e2pdf-loader.php:696 classes/view/page-e2pdf-templates.php:25
+msgid "Search..."
+msgstr "Пошук..."
+
+#: classes/model/e2pdf-loader.php:697
+msgid "Show Element"
+msgstr "Показати елемент"
+
+#: classes/model/e2pdf-loader.php:698
+msgid "Hide Element"
+msgstr "Сховати елемент"
+
+#: classes/model/e2pdf-loader.php:699
+msgid "Show Page"
+msgstr "Показати сторінку"
+
+#: classes/model/e2pdf-loader.php:700
+msgid "Hide Page"
+msgstr "Сховати сторінку"
+
+#: classes/model/e2pdf-loader.php:701
+msgid "Change to"
+msgstr "Змінити на"
+
+#: classes/model/e2pdf-loader.php:702
+msgid "Merge"
+msgstr "Об'єднати"
+
+#: classes/model/e2pdf-loader.php:703
+msgid "Change Property"
+msgstr "Змінити властивість"
+
+#: classes/model/e2pdf-loader.php:705
+msgid "Insert Before"
+msgstr "Вставити перед"
+
+#: classes/model/e2pdf-loader.php:706
+msgid "Insert After"
+msgstr "Вставити після"
+
+#: classes/model/e2pdf-loader.php:707
+msgid "Full Replacement"
+msgstr "Повна заміна"
+
+#: classes/model/e2pdf-loader.php:708
+msgid "Search / Replace"
+msgstr "Пошук / Заміна"
+
+#: classes/model/e2pdf-loader.php:709
+msgid "Contains"
+msgstr "Містить"
+
+#: classes/model/e2pdf-loader.php:710
+msgid "Not Contains"
+msgstr "Не містить"
+
+#: classes/model/e2pdf-loader.php:711
+msgid "In Array"
+msgstr "В масиві"
+
+#: classes/model/e2pdf-loader.php:712
+msgid "Array Key Exists"
+msgstr "Ключ масиву існує"
+
+#: classes/model/e2pdf-loader.php:713
+msgid "Else"
+msgstr "Інакше"
+
+#: classes/model/e2pdf-loader.php:714
+msgid "Append"
+msgstr "Додавання"
+
+#: classes/model/e2pdf-loader.php:715
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: classes/model/e2pdf-loader.php:716
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: classes/model/e2pdf-loader.php:717
+msgid "Palette"
+msgstr "Палітра"
+
+#: classes/model/e2pdf-loader.php:718
+msgid "Line / Stroke Color"
+msgstr "Колір лінії / обводки"
+
+#: classes/model/e2pdf-loader.php:719
+#: classes/view/metaboxes/e2pdf_templates_builder.php:47
+msgid "Graph"
+msgstr "Графік"
+
+#: classes/model/e2pdf-loader.php:720
+msgid "Markers"
+msgstr "Маркери"
+
+#: classes/model/e2pdf-loader.php:721
+msgid "Grid"
+msgstr "Сітка"
+
+#: classes/model/e2pdf-loader.php:722
+msgid "Axis"
+msgstr "Вісь"
+
+#: classes/model/e2pdf-loader.php:723
+msgid "Legend"
+msgstr "Легенда"
+
+#: classes/model/e2pdf-loader.php:724 classes/view/page-e2pdf-debug.php:220
+msgid "Structure"
+msgstr "Структура"
+
+#: classes/model/e2pdf-loader.php:725
+msgid "Space"
+msgstr "Відступ"
+
+#: classes/model/e2pdf-loader.php:726
+msgid "Position"
+msgstr "Позиція"
+
+#: classes/model/e2pdf-loader.php:727
+msgid "Vertical Label"
+msgstr "Вертикальна мітка"
+
+#: classes/model/e2pdf-loader.php:728
+msgid "Horizontal Label"
+msgstr "Горизонтальна мітка"
+
+#: classes/model/e2pdf-loader.php:729
+msgid "Label"
+msgstr "Мітка"
+
+#: classes/model/e2pdf-loader.php:730
+msgid "Axis Overlap"
+msgstr "Перекриття вісі"
+
+#: classes/model/e2pdf-loader.php:731
+msgid "Grid Spacing"
+msgstr "Інтервал сітки"
+
+#: classes/model/e2pdf-loader.php:732
+msgid "Grid Spacing (V)"
+msgstr "Інтервал сітки (V)"
+
+#: classes/model/e2pdf-loader.php:733
+msgid "Grid Spacing (H)"
+msgstr "Інтервал сітки (H)"
+
+#: classes/model/e2pdf-loader.php:734
+msgid "Grid Division (V)"
+msgstr "Поділ сітки (V)"
+
+#: classes/model/e2pdf-loader.php:735
+msgid "Grid Division (H)"
+msgstr "Поділ сітки (H)"
+
+#: classes/model/e2pdf-loader.php:736
+msgid "Axis Color"
+msgstr "Колір вісі"
+
+#: classes/model/e2pdf-loader.php:737
+msgid "Grid Color"
+msgstr "Колір сітки"
+
+#: classes/model/e2pdf-loader.php:738
+msgid "Bar Label Color"
+msgstr "Колір мітки стовпця"
+
+#: classes/model/e2pdf-loader.php:739
+msgid "Position (V)"
+msgstr "Позиція (V)"
+
+#: classes/model/e2pdf-loader.php:740
+msgid "Position (H)"
+msgstr "Позиція (H)"
+
+#: classes/model/e2pdf-loader.php:741
+msgid "Bar Labels"
+msgstr "Мітки стовпців"
+
+#: classes/model/e2pdf-loader.php:742
+msgid "Marker"
+msgstr "Маркер"
+
+#: classes/model/e2pdf-loader.php:743
+msgid "Grid Subdivision Color"
+msgstr "Колір підподілу сітки"
+
+#: classes/model/e2pdf-loader.php:744
+msgid "Sub Divisions"
+msgstr "Підподіли"
+
+#: classes/model/e2pdf-loader.php:745
+msgid "Axis (V)"
+msgstr "Вісь (V)"
+
+#: classes/model/e2pdf-loader.php:746
+msgid "Axis (H)"
+msgstr "Вісь (H)"
+
+#: classes/model/e2pdf-loader.php:747
+msgid "Text"
+msgstr "Текст"
+
+#: classes/model/e2pdf-loader.php:748
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: classes/model/e2pdf-loader.php:749
+msgid "Min"
+msgstr "Мін"
+
+#: classes/model/e2pdf-loader.php:750
+msgid "Max"
+msgstr "Макс"
+
+#: classes/model/e2pdf-loader.php:751
+msgid "Fill Under"
+msgstr "Заповнити під"
+
+#: classes/model/e2pdf-loader.php:752
+msgid "Reverse"
+msgstr "Зворотний"
+
+#: classes/model/e2pdf-loader.php:754
+msgid "Percentage"
+msgstr "Відсоток"
+
+#: classes/model/e2pdf-loader.php:755
+msgid "Legend Text Side"
+msgstr "Бічний текст легенди"
+
+#: classes/model/e2pdf-loader.php:756
+msgid "Columns"
+msgstr "Стовпці"
+
+#: classes/model/e2pdf-loader.php:757
+msgid "Padding (X)"
+msgstr "Відступ внутрішній (X)"
+
+#: classes/model/e2pdf-loader.php:758
+msgid "Padding (Y)"
+msgstr "Відступ внутрішній (Y)"
+
+#: classes/model/e2pdf-loader.php:759
+msgid "Stroke Color"
+msgstr "Колір обводки"
+
+#: classes/model/e2pdf-loader.php:760
+msgid "Stroke Width"
+msgstr "Ширина обводки"
+
+#: classes/model/e2pdf-loader.php:761
+msgid "Bubble Scale"
+msgstr "Бульбашки"
+
+#: classes/model/e2pdf-loader.php:762
+msgid "Units"
+msgstr "Одиниці"
+
+#: classes/model/e2pdf-loader.php:763
+msgid "Increment"
+msgstr "Збільшення"
+
+#: classes/model/e2pdf-loader.php:764
+msgid "Stack Group"
+msgstr "Група стеків"
+
+#: classes/model/e2pdf-loader.php:765
+msgid "Line Dataset"
+msgstr "Набір даних лінії"
+
+#: classes/model/e2pdf-loader.php:766
+msgid "Project Angle"
+msgstr "Кут проекції"
+
+#: classes/model/e2pdf-loader.php:767
+msgid "Legends"
+msgstr "Легенди"
+
+#: classes/model/e2pdf-loader.php:768
+msgid "Colors"
+msgstr "Кольори"
+
+#: classes/model/e2pdf-loader.php:769
+msgid "Line Curve"
+msgstr "Крива лінії"
+
+#: classes/model/e2pdf-loader.php:770
+msgid "Margin (H)"
+msgstr "Відступ зовнішній (H)"
+
+#: classes/model/e2pdf-loader.php:771
+msgid "Margin (V)"
+msgstr "Відступ зовнішній (V)"
+
+#: classes/model/e2pdf-loader.php:772
+msgid "Units Label"
+msgstr "Мітка одиниць"
+
+#: classes/model/e2pdf-loader.php:773
+msgid "Dynamic Line / Stroke Color"
+msgstr "Динамічний колір лінії / контурів"
+
+#: classes/model/e2pdf-loader.php:774
+msgid "Dynamic Marker Color"
+msgstr "Динамічний колір маркера"
+
+#: classes/model/e2pdf-loader.php:775
+msgid "Inner"
+msgstr "Внутрішній"
+
+#: classes/model/e2pdf-loader.php:776
+msgid "Outer"
+msgstr "Зовнішня"
+
+#: classes/model/e2pdf-loader.php:777
+msgid "Align"
+msgstr "Вирівнювання"
+
+#: classes/model/e2pdf-loader.php:778
+msgid "Offset (X)"
+msgstr "Зсув (X)"
+
+#: classes/model/e2pdf-loader.php:779
+msgid "Offset (Y)"
+msgstr "Зсув (Y)"
+
+#: classes/model/e2pdf-loader.php:780
+msgid "Link URL"
+msgstr "URL посилання"
+
+#: classes/model/e2pdf-loader.php:781
+msgid "Link Type"
+msgstr "Тип посилання"
+
+#: classes/model/e2pdf-loader.php:782
+msgid "Link Label"
+msgstr "Мітка посилання"
+
+#: classes/model/e2pdf-loader.php:783
+msgid "Url"
+msgstr "Посилання"
+
+#: classes/model/e2pdf-loader.php:784
+msgid "Attachment"
+msgstr "Вкладення"
+
+#: classes/model/e2pdf-loader.php:785
+#: classes/view/metaboxes/e2pdf_templates_builder.php:37
+msgid "Image"
+msgstr "Зображення"
+
+#: classes/model/e2pdf-loader.php:786
+msgid "Media Library"
+msgstr "Медіа-бібліотека"
+
+#: classes/model/e2pdf-loader.php:787 classes/view/blocks/wysiwyg.php:44
+msgid "Underline"
+msgstr "Підкреслення"
+
+#: classes/model/e2pdf-loader.php:788
+#: classes/view/metaboxes/e2pdf_templates_builder.php:49
+msgid "Page Number"
+msgstr "Номер сторінки"
+
+#: classes/model/e2pdf-loader.php:789
+msgid "Adjust Page Number"
+msgstr "Змінити номер сторінки"
+
+#: classes/model/e2pdf-loader.php:790
+msgid "Adjust Page Total"
+msgstr "Змінити всього сторінок"
+
+#: classes/model/e2pdf-loader.php:791
+msgid "Preload Images"
+msgstr "Пре-зображення"
+
+#: classes/model/e2pdf-loader.php:792
+msgid "Hooks"
+msgstr "Хуки"
+
+#: classes/model/e2pdf-loader.php:793
+msgid "Display PDF download at"
+msgstr "Відобразити завантаження PDF на"
+
+#: classes/model/e2pdf-loader.php:794
+msgid "Optimization"
+msgstr "Оптимізація"
+
+#: classes/model/e2pdf-loader.php:795
+msgid "Inherit"
+msgstr "Успадкувати"
+
+#: classes/model/e2pdf-loader.php:796
+#: classes/view/metaboxes/e2pdf_templates_settings.php:402
+msgid "Not Optimized"
+msgstr "Не оптимізовано"
+
+#: classes/model/e2pdf-loader.php:797
+#: classes/view/metaboxes/e2pdf_templates_settings.php:403
+msgid "Low Quality"
+msgstr "Низька якість"
+
+#: classes/model/e2pdf-loader.php:798
+#: classes/view/metaboxes/e2pdf_templates_settings.php:404
+msgid "Basic Quality"
+msgstr "Базова якість"
+
+#: classes/model/e2pdf-loader.php:799
+#: classes/view/metaboxes/e2pdf_templates_settings.php:405
+msgid "Good Quality"
+msgstr "Добра якість"
+
+#: classes/model/e2pdf-loader.php:800
+#: classes/view/metaboxes/e2pdf_templates_settings.php:406
+msgid "Best Quality"
+msgstr "Найкраща якість"
+
+#: classes/model/e2pdf-loader.php:801
+#: classes/view/metaboxes/e2pdf_templates_settings.php:407
+msgid "Ultra Quality"
+msgstr "Ультра якість"
+
+#: classes/model/e2pdf-loader.php:802
+msgid "Error: Empty \"if\" and \"value\" detected in action condition"
+msgstr "Помилка: Виявлено порожні \"if\" та \"value\" в умові дії"
+
+#: classes/model/e2pdf-loader.php:803
+msgid "No Read-Only"
+msgstr "Не лише читання"
+
+#: classes/model/e2pdf-loader.php:804
+msgid "No Border"
+msgstr "Без рамок"
+
+#: classes/model/e2pdf-loader.php:805
+msgid "Quick Props"
+msgstr "Швидкі властивості"
+
+#: classes/model/e2pdf-loader.php:844
+#, php-format
+msgid "E2Pdf requires PHP version 5.4 or later. Your PHP version is %s"
+msgstr "E2Pdf вимагає версію PHP 5.4 або новішу. Ваша версія PHP: %s"
+
+#: classes/model/e2pdf-loader.php:865
+msgid "Templates per page"
+msgstr "Шаблонів на сторінку"
+
+#: classes/model/e2pdf-loader.php:981
+#, php-format
+msgid "Can't create folder %s"
+msgstr "Не вдалося створити папку %s"
+
+#: classes/model/e2pdf-notification.php:37
+#, php-format
+msgid "Your E2Pdf License Key will expire at <strong>%s</strong>"
+msgstr "Термін дії вашого ключа ліцензії E2Pdf закінчиться <strong>%s</strong>"
+
+#: classes/model/e2pdf-notification.php:39
+#: classes/model/e2pdf-notification.php:53
+msgid "Renew License Key"
+msgstr "Продовжити термін дії ліцензії"
+
+#: classes/model/e2pdf-notification.php:51
+msgid "Your E2Pdf License Key has expired"
+msgstr "Термін дії вашого ключа ліцензії E2Pdf закінчився"
+
+#: classes/model/e2pdf-notification.php:69
+msgid "You are using E2Pdf FREE License Type"
+msgstr "Ви використовуєте тип ліцензії E2Pdf FREE"
+
+#: classes/model/e2pdf-notification.php:69
+msgid "Up to 1 Page and up to 1 Template allowed"
+msgstr "Дозволено до 1 сторінки та до 1 шаблону"
+
+#: classes/model/e2pdf-notification.php:69
+msgid "Upgrade License Key"
+msgstr "Підвищити рівень ліцензії"
+
+#: classes/model/e2pdf-notification.php:82
+msgid "E2Pdf License Key does not match this site"
+msgstr "Ключ ліцензії E2Pdf не відповідає цьому сайту"
+
+#: classes/model/e2pdf-notification.php:84
+msgid "Restore License Key"
+msgstr "Відновити ключ ліцензії"
+
+#: classes/model/e2pdf-options.php:84 classes/model/e2pdf-options.php:282
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: classes/model/e2pdf-options.php:88 classes/model/e2pdf-options.php:281
+#: classes/model/e2pdf-options.php:292
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: classes/model/e2pdf-options.php:94 classes/model/e2pdf-options.php:735
+msgid "Extensions"
+msgstr "Розширення"
+
+#: classes/model/e2pdf-options.php:140 classes/view/page-e2pdf-debug.php:37
+msgid "Common"
+msgstr "Загальне"
+
+#: classes/model/e2pdf-options.php:143 classes/model/e2pdf-options.php:148
+msgid "E2Pdf.com Account E-mail Address"
+msgstr "E-mail облікового запису E2Pdf.com"
+
+#: classes/model/e2pdf-options.php:151 classes/model/e2pdf-options.php:159
+msgid "API Server"
+msgstr "Час очікування з'єднання"
+
+#: classes/model/e2pdf-options.php:172
+msgid "API Connection Timout (sec)"
+msgstr "API час очікування з'єднання (сек)"
+
+#: classes/model/e2pdf-options.php:181 classes/view/page-e2pdf-debug.php:45
+msgid "PDF Processor"
+msgstr "PDF процесор"
+
+#: classes/model/e2pdf-options.php:189
+#: classes/view/metaboxes/e2pdf_templates_settings.php:443
+#: classes/view/page-e2pdf-debug.php:46
+msgid "Font Processor"
+msgstr "Обробка шрифтів"
+
+#: classes/model/e2pdf-options.php:200
+msgid "Release Candidate Builds"
+msgstr "Версії-кандидати"
+
+#: classes/model/e2pdf-options.php:206
+msgid "Update from E2Pdf.com"
+msgstr "Оновлення з E2Pdf.com"
+
+#: classes/model/e2pdf-options.php:209
+msgid "URL Format"
+msgstr "URL формат"
+
+#: classes/model/e2pdf-options.php:220 classes/model/e2pdf-options.php:226
+msgid "URL Rewrite"
+msgstr "URL перезапис"
+
+#: classes/model/e2pdf-options.php:239 classes/view/page-e2pdf-settings.php:123
+msgid "Cache"
+msgstr "Кеш"
+
+#: classes/model/e2pdf-options.php:245
+msgid "Objects Cache"
+msgstr "Кеш об'єктів"
+
+#: classes/model/e2pdf-options.php:254
+msgid "Fonts Cache"
+msgstr "Кеш шрифтів"
+
+#: classes/model/e2pdf-options.php:263
+msgid "PDFs Cache"
+msgstr "Кеш PDF файлів"
+
+#: classes/model/e2pdf-options.php:272
+msgid "TTL (sec)"
+msgstr "TTL (сек)"
+
+#: classes/model/e2pdf-options.php:275
+msgid "PDF Ajax Loader"
+msgstr "Завантажувач PDF Ajax"
+
+#: classes/model/e2pdf-options.php:286
+msgid "Fallback PDF Viewer"
+msgstr "Резервний переглядач PDF"
+
+#: classes/model/e2pdf-options.php:303
+msgid ""
+"Fix Chrome iOS Download Name (might be not compatible with certain setups)"
+msgstr ""
+"Виправити ім'я завантаження для Chrome на iOS (може бути несумісно з деякими "
+"налаштуваннями)"
+
+#: classes/model/e2pdf-options.php:306 classes/model/e2pdf-options.php:312
+msgid "New Edit Layout"
+msgstr "Новий макет редагування"
+
+#: classes/model/e2pdf-options.php:315 classes/model/e2pdf-options.php:321
+msgid "Hide Warnings"
+msgstr "Сховати попередження"
+
+#: classes/model/e2pdf-options.php:324
+msgid "Local Images"
+msgstr "Локальні зображення"
+
+#: classes/model/e2pdf-options.php:330
+msgid "Load via Remote Request"
+msgstr "Завантажувати через віддалений запит"
+
+#: classes/model/e2pdf-options.php:333
+msgid "Images Timout (sec)"
+msgstr "Час очікування зображень (сек)"
+
+#: classes/model/e2pdf-options.php:342
+msgid "Bulk Export Interval (sec)"
+msgstr "Інтервал масового експорту (сек)"
+
+#: classes/model/e2pdf-options.php:351
+msgid "Undo Limit"
+msgstr "Ліміт скасування"
+
+#: classes/model/e2pdf-options.php:360
+msgid "Revisions Limit"
+msgstr "Макс. ревізій"
+
+#: classes/model/e2pdf-options.php:369
+msgid "Debug Mode"
+msgstr "Режим налагодження"
+
+#: classes/model/e2pdf-options.php:375
+msgid "Enable Debug Mode"
+msgstr "Увімкнути режим налагодження"
+
+#: classes/model/e2pdf-options.php:378 classes/model/e2pdf-options.php:383
+#: classes/view/blocks/debug-panel.php:10
+msgid "Recovery Mode E-mail"
+msgstr "E-mail для режиму відновлення"
+
+#: classes/model/e2pdf-options.php:386
+msgid "Memory/Time Usage"
+msgstr "Використання пам'яті/часу"
+
+#: classes/model/e2pdf-options.php:392
+msgid "Show Memory/Time Usage"
+msgstr "Показати використання пам'яті/часу"
+
+#: classes/model/e2pdf-options.php:397 classes/view/page-e2pdf-debug.php:20
+#: classes/view/page-e2pdf-debug.php:190
+#: classes/view/page-e2pdf-settings.php:100
+msgid "Maintenance"
+msgstr "Обслуговування"
+
+#: classes/model/e2pdf-options.php:402
+msgid "Fonts"
+msgstr "Шрифти"
+
+#: classes/model/e2pdf-options.php:407
+msgid "Permissions"
+msgstr "Дозволи"
+
+#: classes/model/e2pdf-options.php:460
+msgid "Authorized"
+msgstr "Авторизовано"
+
+#: classes/model/e2pdf-options.php:743
+msgid "Translation"
+msgstr "Переклад"
+
+#: classes/model/e2pdf-options.php:747
+msgid "PDF Translation"
+msgstr "Переклад PDF"
+
+#: classes/model/e2pdf-options.php:753
+msgid "No Translation"
+msgstr "Без перекладу"
+
+#: classes/model/e2pdf-options.php:754
+msgid "Partial Translation"
+msgstr "Частковий переклад"
+
+#: classes/model/e2pdf-options.php:755
+msgid "Full Translation"
+msgstr "Повний переклад"
+
+#: classes/model/e2pdf-shortcode.php:387 classes/model/e2pdf-shortcode.php:643
+#: classes/model/e2pdf-shortcode.php:1204
+#: classes/model/e2pdf-shortcode.php:1326
+#: classes/view/page-e2pdf-templates.php:127
+#: classes/view/page-e2pdf-templates.php:462
+#: classes/view/page-e2pdf-templates.php:543 classes/view/page-e2pdf.php:28
+msgid "Download"
+msgstr "Завантажити"
+
+#: classes/model/e2pdf-shortcode.php:5891
+#: classes/model/e2pdf-shortcode.php:6561
+msgid "Product"
+msgstr "Товар"
+
+#: classes/model/e2pdf-shortcode.php:5894
+#: classes/model/e2pdf-shortcode.php:6564
+msgid "SKU"
+msgstr "Артикул"
+
+#: classes/model/e2pdf-shortcode.php:5897
+#: classes/model/e2pdf-shortcode.php:6567
+msgid "Quantity"
+msgstr "Кількість"
+
+#: classes/model/e2pdf-shortcode.php:5900
+#: classes/model/e2pdf-shortcode.php:6570
+msgid "Price"
+msgstr "Ціна"
+
+#: classes/model/e2pdf-shortcode.php:5903
+#: classes/model/e2pdf-shortcode.php:6573
+#: classes/model/e2pdf-shortcode.php:6649
+#: classes/model/e2pdf-shortcode.php:6885
+msgid "Subtotal"
+msgstr "Підсумок"
+
+#: classes/model/e2pdf-shortcode.php:6667
+#: classes/model/e2pdf-shortcode.php:6903
+msgid "Free shipping coupon"
+msgstr "Купон на безкоштовну доставку"
+
+#: classes/model/e2pdf-shortcode.php:6722
+#: classes/model/e2pdf-shortcode.php:6958
+msgid "Shipping options will be updated during checkout."
+msgstr "Опції доставки будуть оновлені під час оформлення замовлення."
+
+#: classes/model/e2pdf-shortcode.php:6800
+#: classes/model/e2pdf-shortcode.php:7038
+#, php-format
+msgid "estimated for %s"
+msgstr "оцінено для %s"
+
+#: classes/model/e2pdf-shortcode.php:6811
+#: classes/model/e2pdf-shortcode.php:7049
+msgid "Total"
+msgstr "Всього"
+
+#: classes/model/e2pdf-template.php:170
+msgid "Latest"
+msgstr "Остання"
+
+#: classes/model/e2pdf-template.php:887
+msgid "Template Deactivated"
+msgstr "Шаблон деактивовано"
+
+#: classes/view/blocks/bottom-panel.php:8
+msgid "Delete All Pages"
+msgstr "Видалити всі сторінки"
+
+#: classes/view/blocks/bottom-panel.php:12
+msgid "Zoom"
+msgstr "Масштаб"
+
+#: classes/view/blocks/bulk-actions.php:7
+msgid "Select bulk action"
+msgstr "Вибрати масову дію"
+
+#: classes/view/blocks/bulk-actions.php:9
+msgid "Bulk Actions"
+msgstr "Масові дії"
+
+#: classes/view/blocks/debug-panel.php:8
+msgid "Debug Mode is ON"
+msgstr "Режим налагодження увімкнено"
+
+#: classes/view/blocks/debug-panel.php:13
+msgid "Load Time"
+msgstr "Час завантаження"
+
+#: classes/view/blocks/debug-panel.php:13
+msgid "Total Memory Usage"
+msgstr "Загальне використання пам'яті"
+
+#: classes/view/blocks/debug-panel.php:13
+msgid "E2Pdf Memory Usage"
+msgstr "Використання пам'яті E2Pdf"
+
+#: classes/view/blocks/notifications.php:13
+#: classes/view/page-e2pdf-debug.php:64 classes/view/page-e2pdf-debug.php:70
+#: classes/view/page-e2pdf-debug.php:76 classes/view/page-e2pdf-debug.php:82
+#: classes/view/page-e2pdf-debug.php:88 classes/view/page-e2pdf-debug.php:94
+#: classes/view/page-e2pdf-debug.php:100 classes/view/page-e2pdf-debug.php:106
+#: classes/view/page-e2pdf-debug.php:112 classes/view/page-e2pdf-debug.php:114
+#: classes/view/page-e2pdf-debug.php:123 classes/view/page-e2pdf-debug.php:130
+#: classes/view/page-e2pdf-debug.php:137 classes/view/page-e2pdf-debug.php:144
+#: classes/view/page-e2pdf-debug.php:251 classes/view/page-e2pdf-debug.php:260
+#: classes/view/page-e2pdf-debug.php:269
+msgid "[ERROR]"
+msgstr "[Помилка]"
+
+#: classes/view/blocks/pagination.php:7
+#, php-format
+msgid "Templates: %d"
+msgstr "Шаблонів: %d"
+
+#: classes/view/blocks/pagination.php:10
+msgid "First page"
+msgstr "Перша сторінка"
+
+#: classes/view/blocks/pagination.php:16
+msgid "Prev page"
+msgstr "Попередня сторінка"
+
+#: classes/view/blocks/pagination.php:20
+msgid "Current Page"
+msgstr "Поточна сторінка"
+
+#: classes/view/blocks/pagination.php:22
+#, php-format
+msgid "%d of <span class=\"total-pages\">%d</span>"
+msgstr "%d з <span class=\"total-pages\">%d</span>"
+
+#: classes/view/blocks/pagination.php:25
+msgid "Next page"
+msgstr "Наступна сторінка"
+
+#: classes/view/blocks/pagination.php:31
+msgid "Last page"
+msgstr "Остання сторінка"
+
+#: classes/view/blocks/sub-filters.php:14
+#: classes/view/metaboxes/e2pdf_templates_save.php:155
+#: classes/view/page-e2pdf-templates.php:46
+#: classes/view/page-e2pdf-templates.php:125
+#: classes/view/page-e2pdf-templates.php:248
+msgid "Trash"
+msgstr "Кошик"
+
+#: classes/view/blocks/wysiwyg.php:10
+msgid "Hide/Show Hidden Elements"
+msgstr "Сховати/Показати приховані елементи"
+
+#: classes/view/blocks/wysiwyg.php:13
+msgid "Lock/Unlock Locked Elements"
+msgstr "Заблокувати/Розблокувати заблоковані елементи"
+
+#: classes/view/blocks/wysiwyg.php:16
+msgid "Enable/Disable WYSIWYG Editor"
+msgstr "Увімкнути/Вимкнути WYSIWYG редактор"
+
+#: classes/view/blocks/wysiwyg.php:21
+msgid "New Page"
+msgstr "Нова сторінка"
+
+#: classes/view/blocks/wysiwyg.php:25
+msgid "Undo Changes"
+msgstr "Скасувати зміни"
+
+#: classes/view/blocks/wysiwyg.php:29
+msgid "Clear Style"
+msgstr "Очистити"
+
+#: classes/view/blocks/wysiwyg.php:40
+msgid "Bold"
+msgstr "Жирний"
+
+#: classes/view/blocks/wysiwyg.php:42
+msgid "Italic"
+msgstr "Курсив"
+
+#: classes/view/blocks/wysiwyg.php:46
+msgid "Strike Through"
+msgstr "Перекреслити"
+
+#: classes/view/blocks/wysiwyg.php:50
+msgid "Align Left"
+msgstr "Вирівняти по лівому краю"
+
+#: classes/view/blocks/wysiwyg.php:52
+msgid "Align Center"
+msgstr "Вирівняти по центру"
+
+#: classes/view/blocks/wysiwyg.php:54
+msgid "Align Right"
+msgstr "Вирівняти по правому краю"
+
+#: classes/view/blocks/wysiwyg.php:59
+msgid "Unordered List"
+msgstr "Ненумерований список"
+
+#: classes/view/blocks/wysiwyg.php:61
+msgid "Ordered List"
+msgstr "Нумерований список"
+
+#: classes/view/blocks/wysiwyg.php:64
+msgid "Heading H1"
+msgstr "Заголовок H1"
+
+#: classes/view/blocks/wysiwyg.php:66
+msgid "Heading H2"
+msgstr "Заголовок H2"
+
+#: classes/view/blocks/wysiwyg.php:69
+#: classes/view/metaboxes/e2pdf_templates_builder.php:41
+msgid "Link"
+msgstr "Посилання"
+
+#: classes/view/blocks/wysiwyg.php:71
+msgid "Unlink"
+msgstr "Прибрати посилання"
+
+#: classes/view/blocks/wysiwyg.php:75
+msgid "Table"
+msgstr "Таблиця"
+
+#: classes/view/metaboxes/e2pdf_templates_builder.php:8
+msgid "Fields"
+msgstr "Поля"
+
+#: classes/view/metaboxes/e2pdf_templates_builder.php:9
+msgid "Objects"
+msgstr "Об'єкти"
+
+#: classes/view/metaboxes/e2pdf_templates_builder.php:10
+msgid "Attachments"
+msgstr "Вкладення"
+
+#: classes/view/metaboxes/e2pdf_templates_builder.php:39
+msgid "Rectangle"
+msgstr "Прямокутник"
+
+#: classes/view/metaboxes/e2pdf_templates_builder.php:63
+msgid "List of files separated by , or line by line"
+msgstr "Список файлів, розділений , або вказаний по рядках"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:15
+#: classes/view/metaboxes/e2pdf_templates_save.php:18
+#: classes/view/metaboxes/e2pdf_templates_save.php:21
+#: classes/view/metaboxes/e2pdf_templates_save.php:24
+#: classes/view/metaboxes/e2pdf_templates_save.php:27
+#: classes/view/page-e2pdf-templates.php:84
+#: classes/view/page-e2pdf-templates.php:151
+#: classes/view/page-e2pdf-templates.php:154
+#: classes/view/page-e2pdf-templates.php:157
+#: classes/view/page-e2pdf-templates.php:160
+#: classes/view/page-e2pdf-templates.php:163
+#: classes/view/page-e2pdf-templates.php:212
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:45
+msgid "Preview"
+msgstr "Передперегляд"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:55
+msgid "Download Original PDF"
+msgstr "Скачати оригінальний PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:57
+msgid "Replace PDF"
+msgstr "Замінити PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:58
+msgid "Remove PDF"
+msgstr "Видалити PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:66
+msgid "View Saved"
+msgstr "Переглянути збережене"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:77
+msgid "Revision"
+msgstr "Ревізія"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:78
+#, php-format
+msgid "Revisions Limit: %s"
+msgstr "Макс. ревізій: %s"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:99
+msgid "Integration Hooks"
+msgstr "Інтеграційні хуки"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:128
+#: classes/view/page-e2pdf-templates.php:98
+#: classes/view/page-e2pdf-templates.php:226
+msgid "Activation"
+msgstr "Активація"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:162
+#: classes/view/page-e2pdf-templates.php:35
+#: classes/view/page-e2pdf-templates.php:120
+msgid "Restore"
+msgstr "Відновити"
+
+#: classes/view/metaboxes/e2pdf_templates_save.php:164
+msgid "Update"
+msgstr "Зберегти"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:15
+msgid "Meta"
+msgstr "Мета"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:17
+msgid "Security"
+msgstr "Безпека"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:26
+msgid "Enter your E-mail to unlock this features"
+msgstr "Введіть вашу електронну пошту, щоб розблокувати ці функції"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:33
+msgid "E-mail"
+msgstr "Електронна пошта"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:49
+msgid "Global Font"
+msgstr "Глобальний шрифт"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:161
+#: classes/view/metaboxes/e2pdf_templates_settings.php:169
+#: classes/view/metaboxes/e2pdf_templates_settings.php:182
+#: classes/view/metaboxes/e2pdf_templates_settings.php:194
+msgid "Dataset Title"
+msgstr "Назва набору даних"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:204
+#: classes/view/metaboxes/e2pdf_templates_settings.php:212
+msgid "Button Title"
+msgstr "Заголовок кнопки"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:221
+#: classes/view/metaboxes/e2pdf_templates_settings.php:229
+msgid "Dynamic PDF Source"
+msgstr "Динамічне джерело PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:258
+msgid "JPG Output Resolution"
+msgstr "Роздільна здатність JPG"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:285
+msgid "Open PDF in Browser"
+msgstr "Відкрити PDF у браузері"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:300
+msgid "Auto PDF Download"
+msgstr "Автоматичне завантаження PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:316
+#: classes/view/metaboxes/e2pdf_templates_settings.php:324
+#: classes/view/page-e2pdf.php:148 classes/view/page-e2pdf.php:154
+#: classes/view/page-e2pdf.php:338 classes/view/page-e2pdf.php:344
+msgid "PDF Name"
+msgstr "Назва PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:334
+#: classes/view/metaboxes/e2pdf_templates_settings.php:342
+#: classes/view/page-e2pdf.php:354 classes/view/page-e2pdf.php:360
+msgid "PDF Local Name"
+msgstr "Локальна назва PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:352
+msgid "PDF Flatten"
+msgstr "Сплощення PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:364
+#: classes/view/page-e2pdf-debug.php:42 classes/view/page-e2pdf-debug.php:43
+#: classes/view/page-e2pdf.php:206 classes/view/page-e2pdf.php:413
+msgid "No"
+msgstr "Ні"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:365
+#: classes/view/page-e2pdf-debug.php:42 classes/view/page-e2pdf-debug.php:43
+#: classes/view/page-e2pdf.php:207 classes/view/page-e2pdf.php:414
+msgid "Yes"
+msgstr "Так"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:366
+#: classes/view/page-e2pdf.php:208 classes/view/page-e2pdf.php:415
+msgid "Full"
+msgstr "Повне"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:378
+msgid "Generate appearance"
+msgstr "Генерувати вигляд"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:390
+msgid "Images"
+msgstr "Зображення"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:414
+msgid "Compression"
+msgstr "Стиснення"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:426
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:466
+msgid "PDF Tab Order"
+msgstr "Порядок вкладок PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:477
+msgid "Unspecified"
+msgstr "Не вказано"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:478
+msgid "Use Row Order"
+msgstr "Використовувати порядок рядків"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:479
+msgid "Use Column Order"
+msgstr "Використовувати порядок стовпців"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:480
+msgid "Use Document Structure"
+msgstr "Використовувати структуру документа"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:510
+#: classes/view/metaboxes/e2pdf_templates_settings.php:518
+msgid "Subject"
+msgstr "Тема"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:528
+#: classes/view/metaboxes/e2pdf_templates_settings.php:536
+msgid "Author"
+msgstr "Автор"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:546
+#: classes/view/metaboxes/e2pdf_templates_settings.php:554
+msgid "Keywords"
+msgstr "Ключові слова"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:563
+msgid "Lang Code"
+msgstr "Код мови"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:587
+#: classes/view/metaboxes/e2pdf_templates_settings.php:595
+#: classes/view/page-e2pdf.php:164 classes/view/page-e2pdf.php:370
+msgid "PDF Open Password"
+msgstr "Пароль для відкриття PDF"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:605
+#: classes/view/metaboxes/e2pdf_templates_settings.php:614
+msgid "Permissions Owner Password"
+msgstr "Пароль власника прав доступу"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:623
+msgid "Permissions (Opened with PDF Open Password)"
+msgstr "Права доступу (При відкритті паролем)"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:632
+msgid "Printing"
+msgstr "Друк"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:641
+msgid "Printing (Degraded)"
+msgstr "Друк (Низька якість)"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:650
+msgid "Editing"
+msgstr "Редагування"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:659
+msgid "Copying"
+msgstr "Копіювання"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:668
+msgid "Commenting"
+msgstr "Коментування"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:677
+msgid "Fill-In or Signing"
+msgstr "Заповнення або підписання"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:686
+msgid "Document Assembly"
+msgstr "Збірка документа"
+
+#: classes/view/metaboxes/e2pdf_templates_settings.php:695
+msgid "Screen Reader Accessibility"
+msgstr "Доступність для екранних читалок"
+
+#: classes/view/page-e2pdf-debug.php:12 classes/view/page-e2pdf-debug.php:245
+msgid "Connections"
+msgstr "З'єднання"
+
+#: classes/view/page-e2pdf-debug.php:13
+msgid "DB"
+msgstr "БД"
+
+#: classes/view/page-e2pdf-debug.php:25 classes/view/page-e2pdf-debug.php:195
+#: classes/view/page-e2pdf-debug.php:206
+#: classes/view/page-e2pdf-settings.php:105
+#: classes/view/page-e2pdf-settings.php:116
+#: classes/view/page-e2pdf-settings.php:128
+#: classes/view/page-e2pdf-settings.php:139
+#: classes/view/page-e2pdf-settings.php:150
+#: classes/view/page-e2pdf-settings.php:162
+msgid "Are you sure want to continue?"
+msgstr "Ви впевнені, що хочете продовжити?"
+
+#: classes/view/page-e2pdf-debug.php:34
+msgid ""
+"* It is strongly RECOMMENDED that you backup your WEBSITE before any of "
+"these actions are applied to avoid data loss"
+msgstr ""
+"* РЕКОМЕНДУЄТЬСЯ створити резервну копію вашого ВЕБСАЙТУ перед виконанням "
+"будь-яких з цих дій, щоб уникнути втрати даних"
+
+#: classes/view/page-e2pdf-debug.php:38 classes/view/page-e2pdf-license.php:16
+msgid "Site URL"
+msgstr "Сайт URL"
+
+#: classes/view/page-e2pdf-debug.php:39
+msgid "Plugin Version"
+msgstr "Версія плагіну"
+
+#: classes/view/page-e2pdf-debug.php:40
+msgid "DB Version"
+msgstr "Версія БД"
+
+#: classes/view/page-e2pdf-debug.php:41
+msgid "WP Version"
+msgstr "Версія WP"
+
+#: classes/view/page-e2pdf-debug.php:42
+msgid "Multisite"
+msgstr "Мультисайт"
+
+#: classes/view/page-e2pdf-debug.php:43
+msgid "Is Main Site"
+msgstr "Головний сайт"
+
+#: classes/view/page-e2pdf-debug.php:53
+msgid "Folders"
+msgstr "Папки"
+
+#: classes/view/page-e2pdf-debug.php:54
+msgid "WP Folder"
+msgstr "Папка WP"
+
+#: classes/view/page-e2pdf-debug.php:56
+msgid "Upload Folder"
+msgstr "Папка завантажень"
+
+#: classes/view/page-e2pdf-debug.php:58
+msgid "Plugin Folder"
+msgstr "Папка плагіна"
+
+#: classes/view/page-e2pdf-debug.php:60
+msgid "Folders permission"
+msgstr "Дозволи на папки"
+
+#: classes/view/page-e2pdf-debug.php:109
+msgid "PHP Extensions"
+msgstr "Розширення PHP"
+
+#: classes/view/page-e2pdf-debug.php:154
+msgid "Locales"
+msgstr "Локалі"
+
+#: classes/view/page-e2pdf-debug.php:168
+msgid "Post Types"
+msgstr "Типи постів"
+
+#: classes/view/page-e2pdf-debug.php:177
+msgid "Image Sizes"
+msgstr "Розміри зображень"
+
+#: classes/view/page-e2pdf-debug.php:182
+msgid "Plugins"
+msgstr "Плагіни"
+
+#: classes/view/page-e2pdf-debug.php:215
+msgid ""
+"* It is strongly RECOMMENDED that you backup your DB before any of these "
+"actions are applied to avoid data loss"
+msgstr ""
+"* РЕКОМЕНДУЄТЬСЯ створити резервну копію БД перед виконанням будь-яких з цих "
+"дій, щоб уникнути втрати даних"
+
+#: classes/view/page-e2pdf-debug.php:252
+msgid "Back-connection"
+msgstr "Зворотнє з'єднання"
+
+#: classes/view/page-e2pdf-debug.php:261
+msgid "Upload Speed"
+msgstr "Швидкість вивантаження"
+
+#: classes/view/page-e2pdf-debug.php:270
+msgid "Download Speed"
+msgstr "Швидкість завантаження"
+
+#: classes/view/page-e2pdf-license.php:38
+msgid "Change"
+msgstr "Змінити"
+
+#: classes/view/page-e2pdf-license.php:40
+msgid "Disconnect"
+msgstr "Від'єднати"
+
+#: classes/view/page-e2pdf-license.php:46
+msgid "Sites"
+msgstr "Сайти"
+
+#: classes/view/page-e2pdf-license.php:56
+msgid "Deactivate Templates"
+msgstr "Деактивувати шаблони"
+
+#: classes/view/page-e2pdf-license.php:62
+msgid "Expire Date"
+msgstr "Термін дії"
+
+#: classes/view/page-e2pdf-settings.php:27
+msgid "Upload Font"
+msgstr "Завантажити шрифт"
+
+#: classes/view/page-e2pdf-settings.php:32
+#: classes/view/page-e2pdf-templates.php:388
+msgid "Allowed File Types"
+msgstr "Дозволені типи файлів"
+
+#: classes/view/page-e2pdf-settings.php:38
+msgid "Upload"
+msgstr "Завантажити"
+
+#: classes/view/page-e2pdf-templates.php:16
+#: classes/view/page-e2pdf-templates.php:105
+#: classes/view/page-e2pdf-templates.php:270
+#: classes/view/page-e2pdf-templates.php:301
+msgid "Add New"
+msgstr "Додати новий"
+
+#: classes/view/page-e2pdf-templates.php:26
+msgid "Search"
+msgstr "Пошук"
+
+#: classes/view/page-e2pdf-templates.php:44
+#: classes/view/page-e2pdf-templates.php:246
+msgid "Activate"
+msgstr "Активувати"
+
+#: classes/view/page-e2pdf-templates.php:45
+#: classes/view/page-e2pdf-templates.php:247
+msgid "Deactivate"
+msgstr "Деактивувати"
+
+#: classes/view/page-e2pdf-templates.php:52
+#: classes/view/page-e2pdf-templates.php:379
+#: classes/view/page-e2pdf-templates.php:458
+msgid "Import"
+msgstr "Імпортувати"
+
+#: classes/view/page-e2pdf-templates.php:58
+#: classes/view/page-e2pdf-templates.php:186
+msgid "Select All"
+msgstr "Вибрати все"
+
+#: classes/view/page-e2pdf-templates.php:93
+#: classes/view/page-e2pdf-templates.php:168
+#: classes/view/page-e2pdf-templates.php:221
+msgid "Updated"
+msgstr "Оновлено"
+
+#: classes/view/page-e2pdf-templates.php:105
+msgid "No Templates Found"
+msgstr "Шаблони не знайдено"
+
+#: classes/view/page-e2pdf-templates.php:121
+msgid "Template will be removed! Continue?"
+msgstr "Шаблон буде видалено! Продовжити?"
+
+#: classes/view/page-e2pdf-templates.php:123
+msgid "Edit"
+msgstr "Редагувати"
+
+#: classes/view/page-e2pdf-templates.php:124
+msgid "Duplicate"
+msgstr "Дублювати"
+
+#: classes/view/page-e2pdf-templates.php:126 classes/view/page-e2pdf.php:29
+msgid "View"
+msgstr "Переглянути"
+
+#: classes/view/page-e2pdf-templates.php:268
+#: classes/view/page-e2pdf-templates.php:299
+#, php-format
+msgid "ID: %d | Edit Template"
+msgstr "ID: %d | Редагування шаблона"
+
+#: classes/view/page-e2pdf-templates.php:268
+#: classes/view/page-e2pdf-templates.php:299
+msgid "New Template"
+msgstr "Новий шаблон"
+
+#: classes/view/page-e2pdf-templates.php:315
+msgid "Template Title"
+msgstr "Назва шаблону"
+
+#: classes/view/page-e2pdf.php:12 classes/view/page-e2pdf.php:467
+msgid "Create PDFs in Bulk"
+msgstr "Масова генерація PDF"
+
+#: classes/view/page-e2pdf.php:63 classes/view/page-e2pdf.php:296
+msgid "Dataset"
+msgstr "Набір даних"
+
+#: classes/view/page-e2pdf.php:98
+msgid "Dataset2"
+msgstr "Набір даних2"
+
+#: classes/view/page-e2pdf.php:138
+msgid "Shortcode for a Download Link with a Dynamic Dataset"
+msgstr "Шорткод для завантаження з динамічним набором даних"
+
+#: classes/view/page-e2pdf.php:142
+msgid "Shortcode for a Download Link with the Current Dataset"
+msgstr "Шорткод завантаження з поточним набором даних"
+
+#: classes/view/page-e2pdf.php:180 classes/view/page-e2pdf.php:386
+msgid "User"
+msgstr "Користувач"
+
+#: classes/view/page-e2pdf.php:196 classes/view/page-e2pdf.php:403
+msgid "Flatten"
+msgstr "Сплющення"
+
+#: classes/view/page-e2pdf.php:235 classes/view/page-e2pdf.php:442
+msgid "Arguments"
+msgstr "Аргументи"
+
+#: classes/view/page-e2pdf.php:306
+msgid "Filter..."
+msgstr "Фільтр..."
+
+#: classes/view/page-e2pdf.php:478
+msgid "Progress"
+msgstr "Прогрес"
+
+#: classes/view/page-e2pdf.php:480
+msgid "Created"
+msgstr "Створено"
+
+#~ msgid "HTML Worker"
+#~ msgstr "HTML Worker"
+
+#~ msgid "Undo"
+#~ msgstr "Скасувати"
+
+#~ msgid "Redo"
+#~ msgstr "Повторити"
+
+#, php-format
+#~ msgid "Imported: %d"
+#~ msgstr "Імпортовано: %d"
+
+#~ msgid "Restrict PDF Access By URL"
+#~ msgstr "Обмежити доступ до PDF за URL"
+
+#~ msgid "Process Shortcodes"
+#~ msgstr "Обробити шорткоди"
+
+#~ msgid "Restrict Process Shortcodes"
+#~ msgstr "Обмежити обробку шорткодів"
+
+#~ msgid "PDF Download Hooks"
+#~ msgstr "Хуки Завантаження PDF"
+
+#~ msgid "Key Separator"
+#~ msgstr "Key Separator"
+
+#~ msgid "Array Separator"
+#~ msgstr "Array Separator"
+
+#~ msgid "Sub Array Separator"
+#~ msgstr "Sub Array Separator"
+
+#~ msgid "Key"
+#~ msgstr "Ключ"
+
+#~ msgid "Axis Text"
+#~ msgstr "Текст вісі"
+
+#~ msgid "Legend Text"
+#~ msgstr "Текст легенди"
+
+#~ msgid "Area"
+#~ msgstr "Область"
+
+#~ msgid "Structured Data"
+#~ msgstr "Структуровані дані"
+
+#~ msgid "Open"
+#~ msgstr "Open"
+
+#~ msgid "End"
+#~ msgstr "End"
+
+#~ msgid "Outliers"
+#~ msgstr "Викиди"
+
+#~ msgid "Wtop"
+#~ msgstr "Wtop"
+
+#~ msgid "Wbottom"
+#~ msgstr "Wbottom"
+
+#~ msgid "High"
+#~ msgstr "Високий"
+
+#~ msgid "Low"
+#~ msgstr "Низький"
+
+#~ msgid "Global Style"
+#~ msgstr "Глобальний стиль"
+
+#, fuzzy
+#~| msgid "Global Font"
+#~ msgid "Global CSS"
+#~ msgstr "Глобальний шрифт"
+
+#~ msgid "Size Preset"
+#~ msgstr "Пресет розміру"
+
+#~ msgid "My Orders Actions"
+#~ msgstr "Мої замовлення Дії"
+
+#~ msgid "Order Details"
+#~ msgstr "Деталі замовлення"
+
+#~ msgid "Before Order Table"
+#~ msgstr "Перед таблицею замовлення"
+
+#~ msgid "Before Order Table Items"
+#~ msgstr "Перед таблицею списку замовлень"
+
+#~ msgid "After Order Table Items"
+#~ msgstr "Після таблиці списку замовлень"
+
+#~ msgid "After Order Table"
+#~ msgstr "Перед таблиці замовлення"
+
+#~ msgid "Before Submit Button"
+#~ msgstr "Перед кнопкою відправки"
+
+#~ msgid "After Submit Button"
+#~ msgstr "Після кнопки відправки"
+
+#~ msgid "Before Actions"
+#~ msgstr "Перед діями"
+
+#~ msgid "After Actions"
+#~ msgstr "Після дій"
+
+#~ msgid "To Trash"
+#~ msgstr "До кошика"
+
+#~ msgid "PDF Download Inline Fallback Viewer"
+#~ msgstr "Резервний переглядач PDF"
+
+#~ msgid "Inline"
+#~ msgstr "Перегляд у браузері"
+
+#~ msgid "H Margin"
+#~ msgstr "H Margin"
+
+#~ msgid "V Margin"
+#~ msgstr "V Margin"
+
+#~ msgid "The bulk export is not available with Free License Type"
+#~ msgstr "Пакетна генерація PDF недоступна для типу ліцензії \"Безкоштовна\""
+
+#, php-format
+#~ msgid ""
+#~ "The Bulk PDFs creation Generation is not available with Free License "
+#~ "Type. Check <a target='_blank' href='%s'>%s</a> for upgrade options"
+#~ msgstr ""
+#~ "Масова генерація PDF недоступна для типу ліцензії \"Безкоштовна\". "
+#~ "Перевірте <a target=\"_blank\" href=\"%s\">%s</a> для варіантів оновлення"
+
+#~ msgid "Generate PDF"
+#~ msgstr "Генерувати PDF"
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgid "Row Actions"
+#~ msgstr "Дії"
+
+#, fuzzy
+#~| msgid "Edit Template"
+#~ msgid "Edit Page"
+#~ msgstr "Редагувати шаблон"
+
+#~ msgid "Plain Fonts"
+#~ msgstr "Прості шрифти"
+
+#~ msgid "Complex Fonts"
+#~ msgstr "Складні шрифти"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Завантаження не вдалося"
+
+#~ msgid "Font deleted"
+#~ msgstr "Шрифт видалено"
+
+#~ msgid "Load Failed"
+#~ msgstr "Помилка завантаження"
+
+#~ msgid "Template Not Found"
+#~ msgstr "Шаблон не знайдено"
+
+#~ msgid "Cache purged"
+#~ msgstr "Кеш очищено"
+
+#~ msgid "DB optimized"
+#~ msgstr "База данних оптимізована"
+
+#~ msgid "Recovery Mode Limit cleared"
+#~ msgstr "Ліміт Recovery Mode Limit очищено"
+
+#, php-format
+#~ msgid "Moved to the Trash: %d"
+#~ msgstr "Перенесено до кошика: %d"
+
+#~ msgid "Template saved"
+#~ msgstr "Шаблон збережено"
+
+#~ msgid "Template load failed"
+#~ msgstr "Не вдалося завантажити шаблон"
+
+#~ msgid "Generate Batch PDFs"
+#~ msgstr "Пакетна генерація PDF-файлів"
+
+#~ msgid "Activation Hooks reinitialized"
+#~ msgstr "Хуки активації переініціалізовані"
+
+#~ msgid "DB repaired"
+#~ msgstr "Базу даних відновлено"
+
+#~ msgid "DB Hooks reinitialized"
+#~ msgstr "Хуки бази даних переініціалізовані"
+
+#~ msgid "Templates deactivated"
+#~ msgstr "Шаблони деактивовано"
+
+#~ msgid "Export"
+#~ msgstr "Експорт"
+
+#~ msgid "Bulk Export"
+#~ msgstr "Масовий експорт"
+
+#~ msgid "Merged Items"
+#~ msgstr "Об'єднані предмети"
+
+#~ msgid "Item Options"
+#~ msgstr "Опції предмета"
+
+#~ msgid "Import Item"
+#~ msgstr "Імпортувати об'єкт"
+
+#~ msgid "Include Item"
+#~ msgstr "Включити об'єкт"
+
+#~ msgid "Item"
+#~ msgstr "Елемент"
+
+#~ msgid "E2Pdf Template"
+#~ msgstr "E2Pdf шаблон"
+
+#, php-format
+#~ msgid "%d activated"
+#~ msgstr "%d активовано"
+
+#, php-format
+#~ msgid "%d Template moved to the Trash"
+#~ msgstr "%d шаблон перенесено до кошика"
+
+#, php-format
+#~ msgid "%d Template restored"
+#~ msgstr "%d шаблон відновлений"
+
+#, php-format
+#~ msgid "%d Template deleted"
+#~ msgstr "%d шаблон видалено"
+
+#, php-format
+#~ msgid "%d Template duplicated"
+#~ msgstr "%d шаблон дубльовано"
+
+#, php-format
+#~ msgid "%d Templates moved to the Trash"
+#~ msgstr "%d шаблона(ів) перенесено до кошика"
+
+#, php-format
+#~ msgid "%d Templates activated"
+#~ msgstr "%d шаблона(ів) активовано"
+
+#, php-format
+#~ msgid "%d Template activated"
+#~ msgstr "%d шаблон активовано"
+
+#, php-format
+#~ msgid "%d Templates restored"
+#~ msgstr "%d шаблонів відновлено"
+
+#, php-format
+#~ msgid "%d Templates deleted"
+#~ msgstr "%d шаблонів видалено"
+
+#~ msgid "Continue?"
+#~ msgstr "Продовжити?"

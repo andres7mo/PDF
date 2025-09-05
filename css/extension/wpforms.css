@@ -1,0 +1,55 @@
+.e2pdf-dialog .visual-mapper label.wpforms-field-rating-item {
+    display: inline-block;
+    position: relative;
+}
+
+.e2pdf-dialog .visual-mapper label.wpforms-field-rating-item input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+div.wpforms-container-full .wpforms-field.wpforms-field-checkbox ul li input, div.wpforms-container-full .wpforms-field.wpforms-field-radio ul li input, div.wpforms-container-full .wpforms-field.wpforms-field-payment-checkbox ul li input, div.wpforms-container-full .wpforms-field.wpforms-field-payment-multiple ul li input, div.wpforms-container-full .wpforms-field.wpforms-field-gdpr-checkbox ul li input {
+    width: 16px;
+    height: 16px;
+    border: 1px solid;
+}
+
+div.wpforms-container-full input[type=checkbox]:before, div.wpforms-container-full input[type=radio]:before {
+    display: none;
+}
+
+div.wpforms-container-full input[type=checkbox]:before, div.wpforms-container-full input[type=checkbox]:after, div.wpforms-container-full input[type=radio]:before, div.wpforms-container-full input[type=radio]:after {
+    display: none;
+}
+
+div.wpforms-container-full .wpforms-field.wpforms-field-checkbox ul li input + label, div.wpforms-container-full .wpforms-field.wpforms-field-radio ul li input + label, div.wpforms-container-full .wpforms-field.wpforms-field-payment-checkbox ul li input + label, div.wpforms-container-full .wpforms-field.wpforms-field-payment-multiple ul li input + label, div.wpforms-container-full .wpforms-field.wpforms-field-gdpr-checkbox ul li input + label {
+    padding-left: 5px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type=range] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.wpforms-field-content h4, .wpforms-field-content p {
+    width: 100%;
+    margin: 0 !important;
+}
+
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+    height: 150px !important;
+}
+
+.wpforms-container input[type=text].wpforms-signature-input {
+    position: relative !important;
+    display: block !important;
+    height: 150px !important;
+}
+
+.wpforms-container input.wpforms-field-medium, .wpforms-container select.wpforms-field-medium, .wpforms-container .wpforms-field-row.wpforms-field-medium, .wp-core-ui div.wpforms-container input.wpforms-field-medium, .wp-core-ui div.wpforms-container select.wpforms-field-medium, .wp-core-ui div.wpforms-container .wpforms-field-row.wpforms-field-medium {
+    max-width: 100%;
+}

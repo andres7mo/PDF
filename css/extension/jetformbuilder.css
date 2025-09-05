@@ -1,0 +1,28 @@
+.jet-form-builder .jet-form-builder-row {
+    margin-bottom: 10px;
+}
+
+.jet-form-builder .jet-form-builder__field,
+.jet-form-builder .jet-form-builder-repeater__row input,
+.jet-form-builder .jet-form-builder-repeater__row select {
+    max-width: 100%;
+    width: 100%;
+    flex: 0 1 100%;
+    margin: unset;
+}
+
+.jet-form-builder input[type="checkbox"].jet-form-builder__field,
+.jet-form-builder input[type="radio"].jet-form-builder__field,
+.jet-form-builder .jet-form-builder-repeater__row input[type="checkbox"],
+.jet-form-builder .jet-form-builder-repeater__row input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.jet-form-builder .jet-form-builder-file-upload__loader,
+.jet-form-builder .jet-form-builder-file-upload__file-remove {
+    display: none;
+}
+
+
+

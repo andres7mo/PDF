@@ -1,0 +1,32 @@
+.metform-form input[type="text"],
+.metform-form textarea,
+.metform-form select  {
+    width: 100%;
+}
+
+.metform-form textarea {
+    height: 150px;
+}
+
+.metform-form div {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.metform-form div.metform-checkbox, .metform-form div.metform-radio {
+    width: auto;
+    float: left;
+    margin-right: 5px;
+}
+
+.metform-form div.metform-checkbox+div, .metform-form div.metform-radio+div  {
+    width: auto;
+    float:left;
+}
+
+.metform-form .clearfix {
+    margin-top: 0;
+    clear: both;
+}
+
+

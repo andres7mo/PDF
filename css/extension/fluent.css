@@ -1,0 +1,37 @@
+.ff_net_table td {
+    position: relative !important;
+}
+
+.fluentform .ff_net_table td input.ff-screen-reader-element {
+    display: block !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+.fluentform .ff_file_upload_holder {
+    display: inline-block !important;
+    position: relative !important;
+    width: auto !important;
+}
+
+.fluentform .ff_file_upload_holder input.ff-screen-reader-element {
+    height: 100% !important;
+    position: absolute !important;
+    width: 100% !important;
+    display: block !important;
+    top: 0;
+}
+
+.fluentform .ff-el-ratings input[type=radio] {
+    width: auto !important;
+    height: auto !important;
+    visibility: visible !important;
+    display: inherit !important;
+}
+
+.e2pdf-dialog .fluentform .ff-el-ratings label {
+    display: inline-block !important;
+    width: auto !important;
+}
